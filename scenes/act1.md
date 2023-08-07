@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: IAR ACEASTA ESTE ANXIETATEA ACESTUI OM
 
-n: _YOU_ ARE THE ANXIETY
+n: _TU_ EȘTI ANXIETATEA
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -24,17 +24,17 @@ n: _YOU_ ARE THE ANXIETY
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Oh hey! We're back here again?
+h: Hey hey! Iar am ajuns aici?
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: SCOUPUL TĂU E SĂ-ȚI PROTEJEZI OMUL DE *PERICOL*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, REPLAYING THIS GAME IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: DE FAPT, RELUAREA JOCULUI ĂSTUIA ÎL PUNE *ÎN PERICOL* FIX ACUM
 
-n: QUICK, WARN THEM!
+n: REPEDE, AVERTIZEAZĂ-L!
 
 ```
 sfx("squeak");
@@ -42,13 +42,13 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The player...
+b: Omule! Ascultă-mă te rog, suntem în pericol! Jucătorul...
 
-[...is gonna torture us again!](#act1_replay_torture)
+[...o să ne tortureze iar!](#act1_replay_torture)
 
-[...won't find an alternate ending!](#act1_replay_alternate)
+[...n-o să găsească un alt final!](#act1_replay_alternate)
 
-[...will get ludonarrative dissonance!](#act1_replay_dissonance)
+[...o să intre în disonanță ludonarativă!](#act1_replay_dissonance)
 
 # act1_replay_torture
 
@@ -59,32 +59,32 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: They'll make us curl up into a ball and cry!
+b: O să ne facă să plângem în pat în poziția fetus!
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: They'll make us kill your phone for giving you a panic attack!
+b: O să ne facă să spargem telefonul pt că ne-a dat un atac de panică!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: They'll make us *NOT* punch the party host!
+b: O să ne convingă să *NU* o pocnim pe gazdă!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: They'll make us punch the Sympathetic Anti-Villain party host!
+b: O să ne convingă să pocnim gazda asta super drăguță anti-erou!
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
-h: Well at least we might not jump off the roof this ti--
+h: Măcar tura asta e posibil să nu mai sărim de pe acope----
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: THEY'LL MAKE US JUMP OFF THE ROOF.
+b: O SĂ NE FACĂ SĂ SĂRIM DE PE ACOPERIȘ.
 {{/if}}
 
 `bb({body:"fear"});`
 
-b: ALL THESE NEW TERRIBLE THINGS WILL HAPPEN TO US, AND THEN WE'LL--
+b: O SĂ PĂȚIM TOATE LUCRURILE ASTEA ORIBILE ȘI-APOI O SĂ--
 
 (#act1_replay_end)
 
@@ -96,11 +96,11 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Sure, the story as a *whole* is the same, but each chapter has two possible endings, plus all the branching dialogue opti--
+h: Da fie, povestea în *întregul ei* e la fel, dar fiecare capitol are două posibile sfârșituri, plus toate variantele de dialo----
 
 `bb({body:"fear"});`
 
-b: The player will be disappointed, close this browser tab, delete our software, and then we'll--
+b: Jucătorul o să fie dezamăgit, o să închidă tabul, o să șteargă softul, și apoi o să--
 
 (#act1_replay_end)
 
@@ -112,27 +112,27 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: A lewd-what now?
+h: Lasciv ce..?
 
 `bb({eyes:"normal"});`
 
-b: The story arc was about how you can *CHOOSE* to build a healthy collaboration with your fear,
+b: Arcul poveștii era despre cum poți de fapt *SĂ ALEGI* să colaborezi în mod sănătos cu propria ta frică,
 
 `bb({eyes:"normal_right"});`
 
-b: But replaying the game will give the same story, implying your *CHOICES* don't matter,
+b: dar când joci din nou jocul primești aceeași poveste, ceea ce înseamnă că *ALEGERILE* tale nu contează,
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Thus showing a contradiction between the game's message and mechanics,
+b: demonstrând astfel o contradicție între mesajul jocului și mecanica jocului,
 
 `bb({eyes:"fear"});`
 
-b: Thus unraveling the fabric of this narrative universe,
+b: și dezvăluind conținutul acestui univers narativ,
 
 `bb({body:"fear"});`
 
-b: And then we'll--
+b: în care noi o să--
 
 (#act1_replay_end)
 
@@ -141,7 +141,7 @@ b: And then we'll--
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: MURIIIIIIIIIIIIIIIIM
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -164,13 +164,13 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: Okay let's get back into character.
+h: Okay hai să revenim în pielea personajului..
 
 ```
 Game.clearText();
 ```
 
-n4: (LET _YOUR_ ANXIETY BLAH BLAH BLAH MOST SIMILAR TO WHAT _YOUR_ FEAR BLAH BLAH YOU KNOW THE DRILL)
+n4: (FOLOSEȘTE ANXIETATEA _TA_ BLA BLA BLA DE CE ANUME ȚI-ESTE _ȚIE_ CEL MAI FRICĂ BLA BLA ȘTII DEJA)
 
 ```
 sfx("squeak");
@@ -186,17 +186,17 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Oh good, my wolf's back. Faaaaantastic.
+h: Super, s-a-ntors lupoaica. Exceleeeeeeeent.
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: SCOPUL TĂU E SĂ-ȚI PROTEJEZI OMUL DE *PERICOL*.
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, THAT SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: SANDWICH UL ĂLA ÎȚI PUNE OMUL ÎN *PERICOL* FIX ACUMA
 
-n: QUICK, WARN THEM!
+n: REPEDE, AVERTIZEAZĂ-L!
 
 ```
 sfx("squeak");
@@ -204,21 +204,21 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The danger is...
+b: Om! Omule, suntem în pericol! Iar pericolul este...
 
 `bb({body:"squeeze"})`
 
-n4: (LET _YOUR_ ANXIETY COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _YOUR_ FEAR TELLS YOU)
+n4: (SCOATE-ȚI ANXIETATEA _TA_ LA LUMINA, ALEGE OPȚIUNEA CARE E CEA MAI APROAPE DE CE ȚI-E _ȚIE_ FRICĂ)
 
 (#act1_normal_choice)
 
 # act1_normal_choice
 
-[We're eating alone for lunch! Again!](#act1a_alone) `bb({body:"squeeze_talk"})`
+[Mâncăm prânzul singuri! Iar!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[We're not productive while eating!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[În timpul mesei nu suntem productivi!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
-[That white bread's bad for us!](#act1a_bread) `bb({body:"squeeze_talk"})`
+[Pâinea asta albă e nesănătoasă!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
 # act1a_alone
 
@@ -227,7 +227,7 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: Don't you know loneliness is associated with premature death as much as smoking 15 cigarettes a day?-
+b: Stiai că singurătatea îți crește șansele să mori prematur la fel de mult cât ți-ar crește dacă ai fuma 15 țigări pe zi?
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -237,17 +237,17 @@ b: (Holt-Lunstad 2010, PLoS Medicine)
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, thanks for citing your sources but--
+h: Um, îți mulțumesc că dai surse dar--
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Which means if we don't hang out with someone *right now* we're gonna-
+b: Ceea ce înseamnă că dacă nu ne vedem cu cineva *chiar acum* atunci o să-
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: MURIIIIIIIIIIIIIIIIM
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -260,7 +260,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: YOU USED *FEAR OF BEING UNLOVED*
+n: AI FOLOSIT *FRICA DE A NU FI IUBIT*
 
 (#act1b)
 
@@ -271,27 +271,27 @@ bb({body:"normal", mouth:"small", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-b: Whip out your laptop and do some work right now!
+b: Scoate-ți laptopul și pune-te să faci ceva fix acuma!
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, I'd rather not get crumbs in my keyboa--
+h: Parcă n-aș risca să-mi intre firimituri în tasta----
 
 ```
 bb({mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: If we're not contributing to the body of society then we're a society-parasite!
+b: Dacă nu contribuim ceva la corpul societății atunci suntem un parazit social!
 
-b: The society-body will go to the society-doctor for medication to kill their society-parasites then we'll--
+b: Corpul-societal va merge la doctorul-societal că să-i dea tratament pentru paraziții-societali și-atunci noi o să--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: MURIIIIIIIIIIIIIIIIM
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -304,7 +304,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: YOU USED *FEAR OF BEING A BAD PERSON*
+n: AI FOLOSIT *FRICA DE A FI O PERSOANĂ REA*
 
 (#act1b)
 
@@ -315,18 +315,18 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: Have those studies been replicat--
+h: Dar au fost sau nu replicate studiile as--
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Processed wheat will spike our blood sugar so they'll have to amputate all our limbs and then we'll-
+b: Grâul procesat o să ne ridice nivelul glicemiei în sânge și-o să trebuiască să ne amputeze membrele și-o să-
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: MURIIIIIIIIIIIIIIIIM
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -339,37 +339,37 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: YOU USED *FEAR OF BEING HARMED*
+n: AI FOLOSIT *FRICA DE A FI RĂNIT*
 
 (#act1b)
 
 # act1b
 
-n: IT'S SUPER EFFECTIVE
+n: E SUPER EFICIENT
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: See, human? I am your loyal guard-wolf!
+b: Vezi, omule? Sunt lupul tău loial de pază!
 
 `bb({body:"pride_talk"});`
 
-b: Trust your gut! Your feelings are always valid!
+b: Ai încredere în ce simți! Sentimentele tale sunt mereu valide!
 
 `bb({body:"pride"});`
 
-n: GET YOUR HUMAN'S ENERGY BAR TO ZERO
+n: ADU-I NIVELUL DE ENERGIE LA ZERO
 
-n: TO PROTECT THEIR PHYSICAL + SOCIAL + MORAL NEEDS, YOU CAN USE:
+n: PROTEJEAZĂ-I INTEGRITATEA FIZICĂ + SOCIALĂ + EMOȚIONALĂ, CU:
 
-n: FEAR OF *BEING HARMED* #harm#
+n: FRICA DE *A FI RĂNIT* #harm#
 
-n: FEAR OF *BEING UNLOVED* #alone#
+n: FRICA DE *A NU FI IUBIT* #alone#
 
-n: AND FEAR OF *BEING A BAD PERSON* #bad#
+n: ȘI FRICA DE *A FI O PERSOANĂ REA* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (PRO-TIP: PLAY THE CHOICES THAT PERSONALLY HIT YOUR DEEPEST, DARKEST FEARS!~)
+n4: (SFAT: ALEGE OPȚIUNILE CARE ÎȚI ATING ȚIE FRICILE TALE CELE MAI ADÂNCI!~)
 
 h: ...
 
@@ -383,18 +383,18 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: you know what maybe it's time to check my phone.
+h: cred că-i timpul să-mi verific telefonul.
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: PROTECT YOUR HUMAN
+n: PROTEJEAZĂ-ȚI OMUL
 
-n: FROM THE WORLD. FROM OTHER PEOPLE. FROM THEMSELF.
+n: DE LUME. DE ALȚI OAMENI. DE EI ÎNȘIȘI.
 
-n: GOOD LUCK
+n: SUCCES
 
 (...500)
 
@@ -408,38 +408,38 @@ n: GOOD LUCK
 
 `music('battle', {volume:0.5})`
 
-n: ROUND ONE: *FIGHT!*
+n: RUNDA UNU: *LUPTAȚI!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: Huh. Facebook feed says there's a party happening this weekend.
+h: Facebook zice că-i o petrecere weekendul ăsta care vine.
 
 `bb({eyes:"uncertain"});`
 
-b: Doesn't that weirdo throw a party *every* weekend?
+b: Dubiosul acela nu dă petreceri în *fiecare* weekend?
 
 `bb({eyes:"uncertain_right"});`
 
-b: What inner void are they trying to fill? They must be deeply messed up inside!
+b: Ce gol interior existențial încearcă să umple? Tre să aibă mari probleme!
 
 `hong({eyes:"surprise"});`
 
-h: Also, I got an invite?
+h: Hm, și pare că m-au invitat..?
 
 `bb({eyes:"fear", mouth:"normal"});`
 
-b: Well then!
+b: Hm!
 
-[Say yes, or we'll die from loneliness!](#act1c_loner)
+[Zi da, altfel murim de singurătate!](#act1c_loner)
 
-[Say no, it's full of poisonous drugs!](#act1c_drugs)
+[Zi nu, e plin de droguri periculoase!](#act1c_drugs)
 
-[Ignore it, we just make parties sad.](#act1c_sad)
+[Ignoră-l, stricăm oricum vibe-ul la orice petrecere.](#act1c_sad)
 
 # act1c_loner
 
 {{if _.fifteencigs}}
-b: Fifteen cigarettes a day, human! Fifteen!
+b: Cincisprezece țigări pe zi, om! Cincisprezece!
 {{/if}}
 
 {{if !_.fifteencigs}}
@@ -447,11 +447,11 @@ b: Fifteen cigarettes a day, human! Fifteen!
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: Then no one will show up at our funeral, they'll dump our ashes into the ocean, we get eaten by a whale,
+b: Nu va veni nimeni la înmormântarea noastră, cenușa ne-o aruncă în ocean, apoi ne mănâncă o balenă,
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: and we become WHALE POOP!
+b: și devenim CACA DE BALENĂ!
 {{/if}}
 
 {{if !_.fifteencigs}} `_.whalepoop = true` {{/if}}
@@ -468,25 +468,25 @@ attack("18p", "alone");
 `bb({eyes:"normal"});`
 
 {{if !_.fifteencigs}}
-b: So yeah we should go to that party!
+b: Așa că da, ar trebui să mergem la petrecerea aia!
 {{/if}}
 
 {{if _.parasite}}
-b: Just bring the laptop so we can do work, and not be a society-parasite.
+b: Dar să iei laptopul că să lucrăm ceva, să nu fim parazit social.
 {{/if}}
 
 {{if _.whitebread}}
-b: Just as long as they don't serve WHITE BREAD
+b: Atâta vreme cât pâinea nu e albă.
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.
+h: DOAMNE. Fie, dacă asta te face să taci.
 
-h: I'll say yes.
+h: O să zic da.
 
 {{if _.whalepoop}}
-b: Whale poop, human! Whale poop!
+b: Caca de balenă, omule! Caca de balenă!
 {{/if}}
 
 `_.partyinvite="yes"`
@@ -498,7 +498,7 @@ b: Whale poop, human! Whale poop!
 `bb({mouth:"small", eyes:"fear"});`
 
 {{if _.whitebread}}
-b: or even worse... WHITE BREAD
+b: sau și mai rău.. PÂINE ALBĂ!
 {{/if}}
 
 {{if _.whitebread}}
@@ -506,11 +506,11 @@ b: or even worse... WHITE BREAD
 {{/if}}
 
 {{if _.whitebread}}
-b: We'll overdose on so much meth and white bread they won't be able to fit our fat corpse into the cremation furnace!
+b: Vom face supradoză de metanfetamină și pâine albă încât n-o să ne încapă cadavrul gras pe poarta crematoriului!
 {{/if}}
 
 {{if !_.whitebread}}
-b: We'll overdose on so many drugs the undertaker will wonder how our body was *already* pre-embalmed!
+b: Vom face supradoză de așa multe droguri încât se vor întreba la pompe funebre  cum de e corpul *deja* îmbălsămat!
 {{/if}}
 
 ```
@@ -521,14 +521,14 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.parasite}}
-b: Besides, can't party, we need to do work or we're a terrible society-parasite!
+b: Oricum n-avem timp de petrecere, trebuie să lucrăm, altfel suntem un parazit social oribil!
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.
+h: DOAMNE. Fie, dacă asta te face să taci.
 
-h: I'll say no.
+h: O să zic nu.
 
 `_.partyinvite="no"`
 
@@ -541,15 +541,15 @@ h: I'll say no.
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.fifteencigs}}
-b: All we ever do is cry in a corner about how loneliness is as deadly as 15 cigarettes a day.
+b: Tot ce facem e să plângem într-un colț despre cum singurătatea e la fel de mortală ca 15 țigări pe zi.
 {{/if}}
 
 {{if _.parasite}}
-b: All we ever do at parties is worry about how we should be productive instead.
+b: Tot ce facem la petreceri e să ne gândim că ar trebui să facem ceva productiv în timpul ăsta.
 {{/if}}
 
 {{if _.whitebread}}
-b: All we ever do is worry about how the unhealthy food options are going to kill us.
+b: Tot ce facem e să ne gândim că alegerile culinare nesănătoase o să ne omoare până la urmă.
 {{/if}}
 
 ```
@@ -557,19 +557,19 @@ bb({mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"lookaway"});
 ```
 
-h: gee i wonder why.
+h: oare de ce.
 
 `hong({eyes:"neutral"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: So if we go we'll make them feel bad, but if we reject their invite we'll also make them feel bad!
+b: Deci dacă mergem îl supărăm, dar îl supărăm și dacă nu mergem și îi refuzăm invitația!
 
 `bb({body:"fear", eyes:"fear"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: ALL WE DO IS MAKE PEOPLE FEEL BAD, SO WE SHOULD FEEL BAD
+b: FACEM OAMENII SĂ SE SIMTĂ RĂU, AR TREBUI SĂ NE SIMȚIM ȘI NOI RĂU
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -580,9 +580,9 @@ attack("18p", "bad");
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: Ugh. If it'll make you shut up, fine.
+h: Fie, dacă asta te face să taci.
 
-h: I'll ignore the invite.
+h: Am să-i ignor invitația.
 
 `_.partyinvite="ignore"`
 
@@ -595,19 +595,19 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"annoyed"});
 ```
 
-h: Anyway. Facebook's too much. I need something calmer, less anxiety-producing.
+h: În fine. Facebook e prea intes. Am nevoie de ceva mai calm, ceva ce nu-mi provoacă atâta anxietate.
 
 `hong({eyes:"neutral"});`
 
-h: What's new on Twitter?
+h: Pe Twitter ce-o mai fi nou?
 
 `bb({eyes:"look"});`
 
-[Oh no, look at that horrible news story!](#act1d_news)
+[Oh nu, ce știre absolut dezgustătoare!](#act1d_news)
 
-[Oh no, is that tweet secretly about *us?*](#act1d_subtweet)
+[Oh nu, oare tweet-ul asta e de fapt despre *noi*?](#act1d_subtweet)
 
-[Hey, a GIF of a cat drinking milk](#act1d_milk)
+[Ei ia uite, un gif animat c-o pisică care bea lapte!](#act1d_milk)
 
 
 # act1d_news
@@ -617,14 +617,14 @@ bb({eyes:"pained1"});
 music(null, {fade:2});
 ```
 
-b: God, it feels like the world's burning, isn't it?
+b: Oh Doamne, pare că lumea o ia complet razna, nu?
 
 ```
 bb({eyes:"pained2"});
 hong({mouth:"sad", eyes:"sad"});
 ```
 
-b: It feels like it's all ending, like everything's dying and we're doomed and there's nothing we can do about it.
+b: Pare că totul e din ce în ce mai nasol și noi ne prăbușim o dată cu lumea și nu putem face absolut nimic în legătură cu asta.
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -635,7 +635,7 @@ b: ...
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: Let's retweet that story!
+b: Hai să dăm retweet știrii ăsteia!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -653,11 +653,11 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Okay I'll retweet it just please be quiet!
+h: Okay îi dau retweet dar te rog, gata, chill.
 
 `hong({mouth:"neutral", eyes:"annoyed"});`
 
-h: Screw it, let's look at Snapchat.
+h: Rahat, hai și pe Snapchat dacă tot.
 
 (#act1e)
 
@@ -666,35 +666,35 @@ h: Screw it, let's look at Snapchat.
 
 `bb({eyes:"fear"});`
 
-b: It's a subtweet! A sneaky, sneaky subtweet!
+b: E un subtweet! E un subtweet de fapt, un subtweet insidios!
 
 `hong({eyes:"annoyed"});`
 
-h: It's probably not?
+h: Ba probabil că nu e..
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: but what if they're all talking behind our back
+b: dar dacă vorbesc cu toții pe la spatele nostru
 
-h: They're n--
+h: Nu-i adevăr--
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"});`
 
-b: IN FRONT OF OUR BACK
+b: ÎN FAȚA SPATELUI NOSTRU
 
 `hong({eyes:"sad", mouth:"sad"});`
 
-h: I d--
+h: Nu cre--
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: but *what if*
+b: dar *dacă totuși*
 
-h: S--
+h: T--
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: *what if*
+b: *dacă totuși*
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -719,7 +719,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: o-KAY, gonna try Snapchat.
+h: Bu-buuuun, o să încerc Snapchat..
 
 (#act1e)
 
@@ -727,7 +727,7 @@ h: o-KAY, gonna try Snapchat.
 
 `hong({mouth:"smile", eyes:"neutral"});`
 
-h: Heh ya that's cute, just retweeted it, I thi--
+h: He-he ce drăguț, i-am dat retweet, cred că--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -735,7 +735,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: CATS CAN'T DIGEST MILK AND WE'RE TERRIBLE PEOPLE FOR ENJOYING ANIMAL ABUSE
+b: PISICILE NU POT DIGERA LAPTELE, ORIBIL CĂ NE UITĂM LA AȘA CEVA ȘI ÎNCURAJĂM ABUZUL ANIMALELOR
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -752,7 +752,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: o-KAY, gonna try Snapchat.
+h: Bu-buuuun, o să încerc Snapchat...
 
 (#act1e)
 
@@ -760,7 +760,7 @@ h: o-KAY, gonna try Snapchat.
 
 `hong({mouth:"neutral", eyes:"neutral"});`
 
-h: Huh, photos from yesterday night. So *that's* what those weekly parties are like.
+h: Ia uite, poze de la petrecerea de aseară. Deci așa arată petrecerile astea săptămânale.
 
 {{if _.partyinvite=="yes"}} (#act1e_said_yes) {{/if}}
 
@@ -772,29 +772,29 @@ h: Huh, photos from yesterday night. So *that's* what those weekly parties are l
 
 `hong({mouth:"sad", eyes:"annoyed"});`
 
-h: Oof, looks way too crowded for my anxiety.
+h: Oof, mult prea aglomerat pentru anxietatea mea..
 
-h: Maybe I shouldn't have said yes to the invite?
+h: Poate că n-ar fi trebuit totuși să accept invitația?
 
 ```
 hong({mouth:"neutral", eyes:"neutral"});
 bb({mouth:"normal", eyes:"normal"});
 ```
 
-[Change our answer? Like a jerk?!](#act1e_yes_dontchange)
+[Schimbă răspunsul? Ca un prostovan?](#act1e_yes_dontchange)
 
-[Change our answer! It's too crowded!](#act1e_yes_changetono)
+[Schimbă răspunsul! E prea aglomerat!](#act1e_yes_changetono)
 
 {{if _.subtweet}}
-[Yeah they were totally subtweeting us.](#act1e_ignore_subtweet)
+[Da, absolut era un subtweet.](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
-[Wait we retweeted without fact-checking.](#act1e_ignore_factcheck)
+[Rahat, am dat retweet fără să verificăm sursele.](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[You know, you've got really bad posture?](#act1e_ignore_posture)
+[Știi că ai o postură foarte proastă?](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_yes_dontchange
@@ -804,14 +804,14 @@ bb({eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: They were counting on us to come and now we're betraying their trust? Do you wanna die alone?!
+b: Am răspuns deja da și contau pe noi că venim iar acum le trădăm încrederea, vrei să mori singur??!
 
 {{if _.fifteencigs}}
-b: FIFTEEN. CIGARETTES.
+b: CINCISPREZECE. ȚIGĂRI.
 {{/if}}
 
 {{if _.whalepoop}}
-b: WHALE. POOP.
+b: CACA. DE BALENĂ.
 {{/if}}
 
 ```
@@ -826,7 +826,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll keep it as yes!
+h: Taci, taci, îmi mențin răspunsul, rămâne da!
 
 (#act1f)
 
@@ -837,7 +837,7 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Don't you know about human stampedes?
+b: Cum se cheama aglomeratiile in care mori calcat pe cap? 
 
 ```
 bb({body:"fear", mouth:"small", eyes:"narrow"});
@@ -845,7 +845,7 @@ hong({eyes:"sad", mouth:"sad"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: In 2003 a Rhode Island nightclub had a fire and the panic made people jam the exits so 100 people burned to death-
+b: În 2003 a fost un incendiu într-un club in Rhode Island și de panică oamenii au blocat ieșirile și 100 de oameni au murit.-
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -853,14 +853,14 @@ hong({mouth:"shock"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DO YOU WANT THAT TO HAPPEN TO US-
+b: VREI SĂ NI SE ÎNTÂMPLE ASTA ȘI NOUĂ-
 
 ```
 bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 2.5;
 ```
 
-b: SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY N-
+b: ZI NU ZI NU ZI NU ZI NU ZI NU ZI NU ZI NU ZI NU ZI NU ZI NU-
 
 
 ```
@@ -876,7 +876,7 @@ hong({eyes:"anger", mouth:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll change my answer to no! God!
+h: Gata, îmi schimb răspunsul, refuz invitația. Doamne ferește.
 
 (#act1f)
 
@@ -884,35 +884,35 @@ h: Shut up shut up I'll change my answer to no! God!
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: Hm... that looks really fun.
+h: Hm... arată super distractiv.
 
-h: Maybe I shouldn't have said no to the invite?
+h: Poate că n-ar fi trebuit să refuz invitația?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Change our answer? Like a jerk?!](#act1e_no_dontchange)
+[Schimbă răspunsul? Ca un prostovan?!](#act1e_no_dontchange)
 
-[Change our answer! Don't die alone!](#act1e_no_changetoyes)
+[Schimbă răspunsul! Vei muri singur!](#act1e_no_changetoyes)
 
 {{if _.subtweet}}
 [Yeah they were totally subtweeting us.](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
-[Wait we retweeted without fact-checking.](#act1e_ignore_factcheck)
+[Rahat, am dat retweet fără să verificăm sursele.](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[You know, you've got really bad posture?](#act1e_ignore_posture)
+[Știi că ai o postură foarte proastă?](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_no_dontchange
 
 `bb({eyes:"anger"})`
 
-b: Everybody was counting on us!
+b: Toată lumea conta pe noi!!
 
-b: ...to leave them alone and let them have a nice party without a horrible disgusting {{if _.whitebread}}white-bread-munching{{/if}} creep like u--
+b: ...să îi lăsăm în pace să se bucure de petrecere fără să aibă grija unui dubios dezgustător și oribil {{if _.whitebread}}mâncător-de-pâine-albă{{/if}} ca--
 
 
 ```
@@ -928,7 +928,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll keep it as no!
+h: Okay gata taci taci, rămâne nu!
 
 (#act1f)
 
@@ -939,7 +939,7 @@ bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Chronic loneliness increases our cortisol levels as well as risk for cardiovascular disease and stroke!
+b: Singurătatea cronică ne crește nivelul de cortizol și riscul de boli cardiovasculare și de accident vascular cerebral!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -949,7 +949,7 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.fifteencigs}}
-b: FIFTEEN. CIGARETTES.
+b: CINCISPREZECE. ȚIGĂRI.
 {{/if}}
 
 ```
@@ -958,7 +958,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll change my answer to yes! God!
+h: Okay taci taci îmi schimb răspunsul, îi spun da!
 
 (#act1f)
 
@@ -969,14 +969,14 @@ bb({eyes:"fear", mouth:"small"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: All our problematic tweets have come back to roost!
+b: Toate tweeturile noastre problematice din trecut au revenit în feed!
 
 ```
 bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.7;
 ```
 
-b: We're gonna get called out and cancelled and dragged with a rope on horseback down the information superhighway!
+b: O să fim scoși în evidență, o să fim cancelled și-apoi o să fim trași legați de cal pe autostrada informației!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -991,7 +991,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Why are you like this?!
+h: De ce te comporți așa?!
 
 (#act1f)
 
@@ -1002,14 +1002,14 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: We're spreading disinformation! We're destroying trust in a free press!
+b: Distribuim informații false! Distrugem încrederea oamenilor în presa liberă!
 
 ```
 bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: We're the reason fascism will arise from the rubble of democracy!
+b: Noi suntem motivul pentru care se înalță fascismul din ruinele democrației!
 
 ```
 bb({body:"normal", eyes:"anger"});
@@ -1025,7 +1025,7 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 _.factcheck = true;
 ```
 
-h: Why are you like this?!
+h: De ce te comporți așa?!
 
 (#act1f)
 
@@ -1036,13 +1036,13 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Do you want to have a pretzel for a spine?! Stop hunching over your screen!
+b: Vrei să ți se facă coloana covrig?! Nu mai sta așa cocârjat în fața ecranului!
 
 ```
 bb({body:"meta"});
 ```
 
-b: That means you too.
+b: Și tu.
 
 ```
 bb({body:"normal", mouth:"normal"});
@@ -1058,7 +1058,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Why are you like this?!
+h: De ce te comporți așa?!
 
 (#act1f)
 
@@ -1066,27 +1066,27 @@ h: Why are you like this?!
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: Hm... that looks really fun.
+h: Hm... arată destul de fain.
 
-h: Maybe I shouldn't have ignored the invite?
+h: Poate că nu ar fi trebuit să ignor invitația?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Keep ignoring, we're still party poopers.](#act1e_ignore_continue)
+[Continuă să ignori, spargem cheful tuturor.](#act1e_ignore_continue)
 
-[Actually, say yes.](#act1e_ignore_changetoyes)
+[De fapt, zi da.](#act1e_ignore_changetoyes)
 
-[Actually, say no.](#act1e_ignore_changetono)
+[De fapt, zi nu.](#act1e_ignore_changetono)
 
 # act1e_ignore_continue
 
 `hong({eyes:"annoyed"});`
 
-h: It's kinda rude to keep ignoring them though, no?
+h: E destul de nepoliticos să continui să-i ignori, nu?
 
 `bb({eyes:"normal_right"});`
 
-b: Well other people always ignore *us*, so
+b: Lumea ne ignoră *pe noi* tot timpul așa că
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1097,7 +1097,7 @@ attack("18p", "alone");
 
 `bb({eyes:"normal"});`
 
-b: so let's just call it even.
+b: să zicem că suntem chit.
 
 (#act1f)
 
@@ -1105,9 +1105,9 @@ b: so let's just call it even.
 
 `hong({eyes:"surprise", mouth:"smile"});`
 
-h: You're... letting me have fun?
+h: Mă lași în pace să mă simt și eu.. bine?
 
-b: Well, I mean, loneliness *can* kill us.
+b: Păi singurătatea ne poate *literal* omorî.
 
 `hong({eyes:"neutral", mouth:"neutral"});`
 
@@ -1117,7 +1117,7 @@ b: Well, I mean, loneliness *can* kill us.
 
 `bb({eyes:"narrow"});`
 
-b: It's too crowded. Crowds are dangerous.
+b: E prea aglomerat. Mulțimile sunt periculoase..
 
 (#act1e_yes_changetono)
 
@@ -1129,60 +1129,60 @@ hong({mouth:"neutral", eyes:"neutral"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: Whatever. New Tinder notification.
+h: În fine. Am primit notificare pe Tinder.
 
 `bb({eyes:"uncertain"})`
 
-b: What, that hookup app?
+b: Aplicația de babardeală?
 
 `hong({eyes:"annoyed"})`
 
-h: It's not a hookup app, it's just a way to meet new peopl--
+h: Nu e aplicație de babardeală.. e o platformă pentru cunoscut alți oa--
 
 `bb({eyes:"narrow"})`
 
-b: It's a hookup app.
+b: E aplicație de babardeală.
 
 ```
 hong({eyes:"surprise", mouth:"smile"});
 bb({eyes:"normal"});
 ```
 
-h: Oh, I got a match! They look cute!
+h: Suntem compatibili! Arată drăguț!
 
 ```
 bb({eyes:"narrow_eyebrow"});
 hong({eyes:"sad", mouth:"anger"})
 ```
 
-h: Please don't ruin this for m--
+h: Să nu-mi strici te rog ast--
 
 ```
 bb({body:"panic"});
 Game.OVERRIDE_TEXT_SPEED = 2.0;
 ```
 
-b: DANGER DANGER DANGER DANGER DANGER DANGER
+b: PERICOL PERICOL PERICOL PERICOL PERICOL PERICOL
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"})`
 
-[We're being *used* by other people.](#act1f_used_by_others)
+[Suntem *folosiți* de alți oameni.](#act1f_used_by_others)
 
-[We're just *using* other people.](#act1f_using_others)
+[Ne *folosim* de alți oameni.](#act1f_using_others)
 
-[YOUR MATCH IS A SERIAL KILLER](#act1f_killer)
+[PERSOANA ASTA ESTE UN CRIMINAL IN SERIE](#act1f_killer)
 
 # act1f_used_by_others
 
 `bb({body:"point_crotch", eyes:"normal", mouth:"normal"})`
 
-b: Random hookups may be able to fill the hole down there,
+b: Întâlnirile astea aleatorii mă ajută să umplu golul pe care îl simt aici,
 
-b: but they can never fill the hole...
+b: dar nu pot niciodată umple golul ...
 
 `bb({body:"point_heart", eyes:"pretty", mouth:"small"})`
 
-b: in *here*.
+b: de *aici*.
 
 (...1000)
 
@@ -1191,7 +1191,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: The point is WE'RE GOING TO DIE ALONE
+b: Ideea e că VOM MURI SINGURI
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1208,7 +1208,7 @@ attack("18p", "alone");
 
 `bb({eyes:"narrow", mouth:"small"})`
 
-b: You think other people's genitals are Pokémon for us to collect?
+b: Ți se pare că organele genitale ale altor oameni sunt niște Pokemoni care așteaptă să-i colectăm noi?
 
 ```
 bb({body:"sing", eyes:"pretty", mouth:"shut"});
@@ -1277,7 +1277,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: The point is we're a manipulative creep.
+b: Ideea e că suntem un dubios manipulativ.
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1295,19 +1295,19 @@ attack("18p", "bad");
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.whitebread}}
-b: They'll trap you in a well and force-feed you white bread to fatten you up so they can wear your skin like a suit!
+b: O să te-nchida într-o pivniță și-o să te forțeze să mănânci numai pâine albă că să te îngrașe să îți poarte pielea că pe-un costum!!
 {{/if}}
 
 {{if _.parasite}}
-b: They'll bludgeon you with a pomodoro timer and say "YOU SHOULDA BEEN MORE PRODUCTIVE YOU PARASITE"
+b: O să te măcelăreasca c-un ceas Pomodoro în timp ce țipă TREBUIA SĂ FII MAI PRODUCTIV PARAZITULE
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: They'll tear your flesh to gory confetti, turn your entrails into streamers, and mix your blood into a punch bowl!
+b: O să - ți rupă carnea în bucăți confetti, carcasa ți -o folosesc drept strecurătoare și sângele ți -l pun cocktailuri!
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: How's THAT for a party invite?!
+b: Cum ți se pare ca text pt o invitație la petrecere?
 {{/if}}
 
 ```
@@ -1334,44 +1334,44 @@ h: ...
 
 (...500)
 
-h: i'm so sick of this game.
+h: așa m-am săturat de jocul ăsta.
 
 (...700)
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 h:
-{{if _.fifteencigs}}"loneliness will kill us"... {{/if}}
-{{if _.parasite}}"we're a society-parasite"... {{/if}}
-{{if _.whitebread}}"don't eat that, it'll kill us"... {{/if}}
-{{if _.subtweet}}"they're talking behind our back"... {{/if}}
-{{if _.badnews}}"the world is burning"... {{/if}}
-{{if _.hookuphole}}"we'll die alone"... {{/if}}
-{{if _.serialkiller}}"they're a serial killer"... {{/if}}
-{{if _.catmilk}}"cats can't digest milk"... {{/if}}
-{{if _.pokemon}}a ^crappy^ parody song... {{/if}}
+{{if _.fifteencigs}}"ne omoară singurătatea"... {{/if}}
+{{if _.parasite}}"suntem paraziți sociali"... {{/if}}
+{{if _.whitebread}}"nu mânca asta, o să ne omoare"... {{/if}}
+{{if _.subtweet}}"ne vorbesc pe la spate"... {{/if}}
+{{if _.badnews}}"lumea arde"... {{/if}}
+{{if _.hookuphole}}"murim singuri"... {{/if}}
+{{if _.serialkiller}}"criminal în serie"... {{/if}}
+{{if _.catmilk}}"pisicile nu pot digere laptele"... {{/if}}
+{{if _.pokemon}}"o melodie de parodie de ^căcat^... {{/if}}
 
-h: i just want to live my life.
+h: nu vreau decât să îmi trăiesc viața.
 
-h: i just want to be free from all this... pain.
+h: vreau doar să nu mai simt atâta.. durere.
 
 `bb({eyes:"look_sad"});`
 
-b: Hey... human...
+b: Hey... omule...
 
 `Game.OVERRIDE_TEXT_SPEED = 0.5;`
 
-b: It'll be okay.
+b: O să fie bine.
 
 (...600)
 
 `bb({body:"point_heart", eyes:"look_sad_smile", mouth:"smile"});`
 
-b: As your loyal guard-wolf, I'll always keep an eye out for danger, and do my best to keep you safe.
+b: În calitate de lupoaică de gardă, o să fac tot ce pot să te apăr și să te țin în siguranță..
 
 `bb({body:"normal", eyes:"look_sad", mouth:"smile"});`
 
-b: I promise.
+b: Promit.
 
 (...600)
 
@@ -1380,29 +1380,29 @@ bb({body:"normal", eyes:"normal", mouth:"normal"});
 hong({body:"phone1", eyes:"neutral", mouth:"neutral"});
 ```
 
-h: Last app. Instagram. What you got?
+h: Ultima aplicație. Instagram. Să vedem.
 
 `hong({eyes:"sad"});`
 
-h: It's... more party pictures.
+h: Și mai multe poze de la petrecere..
 
 `hong({mouth:"sad"});`
 
-h: Everyone looks so happy. Free from worry. Free from anxiety.
+h: Toată lumea pare așa de fericită. Nici o grijă. Nici urmă de anxietate.
 
 `hong({mouth:"anger"});`
 
-h: God, why can't I be like them? Why can't I just be *normal?*
+h: De ce nu pot fi ca ei? De ce nu pot fi și eu un om *normal?*
 
 `bb({eyes:"normal_right"});`
 
-b: Speaking of parties, about this weekend's invite. Here's my FINAL decision:
+b: Apropo de petreceri, uite decizia mea FINALĂ cu privire la invitația pt weekendul ăsta:
 
 `bb({eyes:"normal"});`
 
-[We should go.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
+[Ar trebui să mergem.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[We should not go.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
+[Nu ar trebui să mergem.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1g_go
 
@@ -1418,39 +1418,39 @@ b: Speaking of parties, about this weekend's invite. Here's my FINAL decision:
 
 # act1h
 
-b: We sh--
+b: Nu ar--
 
 ```
 bb({eyes:"wat", mouth:"small"});
 hong({body:"2_fuck"});
 ```
 
-h: *^FUCK^.*
+h: Bag
 
 `hong({body:"2_you"});`
 
-h: YOU.
+h: *^PULA^*.
 
 (...500)
 
-b: w
+b: c
 
 (...1500)
 
 `bb({eyes:"wat_2"});`
 
-b: wha?
+b: ce..ce?
 
 `hong({body:"phone1", eyes:"anger", mouth:"anger"});`
 
-h: I'm going to say YES to that party,
+h: Am să răspund DA invitației ăleia,
 
 {{if _.act1g=="go"}}
-h: NOT because you want me to, but because *I* want to.
+h: NU pentru că așa vrei tu, ci pentru că așa vreau *EU.*
 {{/if}}
 
 {{if _.act1g=="dont"}}
-h: Precisely BECAUSE you don't want me to.
+h: Exact pentru că tu vrei să NU merg.
 {{/if}}
 
 ```
@@ -1458,14 +1458,14 @@ hong({body:"putaway"});
 sfx("rustle");
 ```
 
-h: You're NOT in control of me.
+h: NU mă controlezi tu pe mine.
 
 ```
 sfx("rustle2");
 hong({body:"0_sammich", eyes:"0_annoyed", mouth:"0_neutral"});
 ```
 
-h: Now excuse me while I eat this delicious sandwich in ^goddamn^ peace.
+h: Acuma scuză-mă te rog cât mănânc și eu sandwichul ăsta de ^căcat^ în liniște..
 
 `hong({body:"2_sammich_eat"});`
 
@@ -1503,11 +1503,11 @@ b: ..................
 
 `bb({mouth:"normal"});`
 
-[AHHHH WE'RE GONNA DIE](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
+[AHHHH O SĂ MURIM](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[AHHHH EVERYONE HATES US](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
+[AHHHH TOATĂ LUMEA NE URĂȘTE](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[AHHHH WE'RE HORRIBLE PEOPLE](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
+[AHHHH SUNTEM ABSOLUT ORIBILI](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
 
 # act1h_death
 
@@ -1516,7 +1516,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH WE'RE GONNA DIE AAAAAAHHHHHHH
+b: AHHHH O SĂ MURIM AAAAAAHHHHHHH
 
 ```
 hong({body:"3_defeated1"});
@@ -1534,7 +1534,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH EVERYONE HATES US AAAAAAHHHHHHH
+b: AHHHH TOATĂ LUMEA NE URĂȘTE AAAAAAHHHHHHH
 
 ```
 hong({body:"3_defeated1"});
@@ -1552,7 +1552,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH WE'RE HORRIBLE PEOPLE AAAAAAHHHHHHH
+b: AHHHH SUNTEM ABSOLUT ORIBILI AAAAAAHHHHHHH
 
 ```
 hong({body:"3_defeated1"});
@@ -1570,39 +1570,39 @@ bb({mouth:"smile_lock", eyes:"smile", body:"normal"});
 music('battle', {volume:0.5});
 ```
 
-n: CONGRATULATIONS
+n: FELICITĂRI
 
 (...500)
 
-n: YOU'VE SUCCESSFULLY PROTECTED YOUR HUMAN'S PHYSICAL + SOCIAL + MORAL NEEDS
+n: AI PROTEJAT CU SUCCES INTEGRITATEA FIZICĂ, SOCIALĂ ȘI EMOȚIONALĂ A OMULUI TĂU
 
-n: WHY, LOOK HOW GRATEFUL THEY ARE!
+n: UITE NUMAI CE RECUNOSCĂTORI SUNT!
 
 (...500)
 
-n: NOW THAT THEIR ENERGY IS ZERO, YOU CAN DIRECTLY CONTROL THEIR ACTIONS
+n: ACUMA CĂ ENERGIA LOR E LA ZERO, LE POȚI CONTROLA DIRECT ACȚIUNILE
 
 `bb({mouth:"smile", eyes:"normal"});`
 
-n: PICK YOUR ENDING MOVE
+n: ALEGE-ȚI MUTAREA FINALĂ
 
 `bb({mouth:"small_lock", eyes:"fear"});`
 
-n: *FINISH THEM*
+n: *TERMINĂ-I*
 
-[{FIGHT: Punish your stressful phone!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
+[{LUPTĂ: pedepsește-ți telefonul, e vina lui!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{FLIGHT: Curl up in a ball and cry!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
+[{FUGI: începe să plângi în poziția fetus}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1i_phone
 
 `bb({mouth:"normal", eyes:"narrow"})`
 
-b: Your phone was giving you a panic attack!
+b: Telefonul tău îți provoca un atac de panică!
 
 `bb({eyes:"anger"})`
 
-b: Zuckerberg and Co are hijacking your mental health for venture capitalist money!
+b: Zuckerberg și gașca lui îți scurtcircuitează creierul pentru bani!
 
 ```
 bb({body:"fear", eyes:"fear"});
@@ -1610,7 +1610,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Punish your phone! Destroy it! Kill it!
+b: Pedepsește-ți telefonul! Distruge-l! Omoară-l!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1619,7 +1619,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "fight";
 ```
 
-b: KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL I--
+b: OMOARĂ-L! OMOARĂ-L! OMOARĂ-L! OMOARĂ-L! OMOARĂ-L! OMOARĂ-L! OMOARĂ-L OMOARĂ-L! OMOARĂ-L! OMOARĂ-L! OMOARĂ-L! OMOARĂ-L! OMOARĂ-L! OMOA--
 
 (#act1j)
 
@@ -1627,7 +1627,7 @@ b: KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL 
 
 `bb({eyes:"fear", mouth:"normal"})`
 
-b: The whole world is filled with danger!
+b: Lumea a plină de pericole!
 
 ```
 bb({body:"fear"});
@@ -1635,7 +1635,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Do like the armadillo! Curl up into a ball for self-defense!
+b: Fă ce face armadillo-ul! Ghemuiește-te într-o bilă auto-protectoare!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1644,7 +1644,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "flight";
 ```
 
-b: CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CR-- 
+b: GHEMUIEȘTE-TE ȘI PLÂNGI GHEMUIEȘTE-TE ȘI PLÂNGI GHEMUIEȘTE-TE ȘI PLÂNGI GHEMUIEȘTE-TE ȘI PLÂNGI GHEMU-- 
 
 (#act1j)
 
