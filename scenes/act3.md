@@ -6,7 +6,7 @@ Game.WORDS_HEIGHT_BOTTOM = 205;
 sfx("cheers");
 ```
 
-r: Cheers!
+r: Noroc!
 
 ```
 publish("act3",["roofhunter",1]);
@@ -23,41 +23,41 @@ publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",3]);
 ```
 
-h2: *Ah* that hits the spot.
+h2: *Ah* ce bine a picat asta.
 
 ```
 publish("act3",["roofhunter",2]);
 publish("act3",["roofhong",2]);
 ```
 
-r: You know, kid...
+r: Știi, puștiule...
 
 ```
 publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",6]);
 ```
 
-h2: Specifically, the spots hit are my left and right amygdala.
+h2: Mai precis, a picat exact pe amygdala cerebrală.
 
 ```
 publish("act3",["roofhunter",8]);
 publish("act3",["roofhong",5]);
 ```
 
-r: You remind me of myself when I was younger. Back when I was tormented by the animal in my head.
+r: Îmi amintești de mine însumi când eram mai tânăr. Când eram și eu terorizat de animalul din capul meu.
 
 ```
 publish("act3",["roofhunter",9]);
 publish("act3",["roofhong",2]);
 ```
 
-r: I'm so grateful I can pay it forward, and help you kill the beast the way I killed mine.
+r: Mă bucur tare mult că te pot ajuta, cum m-au ajutat și pe mine alții să omor dihania din mine.
 
 ```
 publish("act3",["roofhunter",2]);
 ```
 
-r: Hey, quick question: truth or da--
+r: Scurtă întrebare: adevăr sau provo--
 
 ```
 publish("act3",["roofhunter",3]);
@@ -65,7 +65,7 @@ publish("act3",["roofhong",7]);
 publish("act3-alpha", ["dizzyhong",0]);
 ```
 
-h2: DARE!
+h2: CARE!
 
 ```
 publish("act3-alpha", ["dizzyhong",1]);
@@ -73,14 +73,14 @@ publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",2]);
 ```
 
-r: Haha! Good.
+r: Haha! Okay.
 
 ```
 publish("act3",["roofhunter",21]);
 publish("act3",["roofhong",4]);
 ```
 
-r: Ok. You see that baby-blue swimming pool down there?
+r: Ok. Vezi piscina aceea de-acolo de jos?
 
 ```
 publish("act3-alpha", ["dizzyhong",0]);
@@ -88,14 +88,14 @@ publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",9]);
 ```
 
-h2: Yeah? Six floors down?
+h2: Aha .. De jos adică de *6 etaje* mai jos?
 
 ```
 publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",8]);
 ```
 
-r: Jump in.
+r: Da. Sari.
 
 ```
 publish("act3",["roofhunter",11]);
@@ -108,39 +108,39 @@ h2: ...
 publish("act3",["roofhong",11]);
 ```
 
-h2: Wait, what?
+h2: Poftim?
 
 ```
 publish("act3",["roofhong",10]);
 publish("act3",["roofhunter",2]);
 ```
 
-r: The animal's started whining, hasn't it?
+r: A-nceput animalul să schelăie, așa-i?
 
 ```
 publish("act3",["roofhunter",23]);
 ```
 
-r: *Oh nooooo it's dangerous, don't do iiiiit.*
+r: *Oh nuuuuuuu e periculos, să nu saaaaaari.*
 
 ```
 publish("act3",["roofhunter",22]);
 ```
 
-r: But that's exactly why we need death-defying thrills! Party hard! Carpe diem! Snort coke off a hooker's ^ass^, #YOLO!
+r: Exact ăsta e motivul pentru care avem nevoie de senzații tari! Party-uri! Carpe diem! Droguri, #YOLO!
 
 ```
 publish("act3",["roofhunter",10]);
 ```
 
-r: Show that animal we don't give two *^dick^s* about its ^bitch^ing! Jump in.
+r: Tre să-i arătăm animalului că nu dăm doi bani pe avertizările lui, pe  schelăiturile lui. Sari.
 
 ```
 publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",13]);
 ```
 
-h2: Uh, but sometimes, um... fear has a point...
+h2: Da dar uneori.. totuși.. are sens frica...
 
 ```
 publish("act3",["roofhunter",5]);
@@ -156,43 +156,43 @@ publish("act3",["roofhunter",6]);
 publish("act3",["dd",1]);
 ```
 
-r: I'm sorry, did you fall for that McMindfulness propaganda that claims feeling bad is *good?*
+r: Ah, scuze, să înțeleg că te-a convins propaganda Mindfulness că ți-e *bine* când ți-e rău?
 
 ```
 publish("act3",["roofhunter",17]);
 ```
 
-r: The ^assholes^ who run this world give the rest of *us* anxiety and depression,
+r: ^Rahații^ care conduc lumea asta ne dau ăstora celorlalți anxietate și depresie
 
 ```
 publish("act3",["roofhunter",18]);
 ```
 
-r: Then make TED Talks to tell us to "accept" being ^fucked^ over, and "embrace" that sadistic demon in our heads!
+r: Și apoi ne explică la TED să "acceptăm" că suntem nenorociți și să permitem demonului sadic din noi să existe!
 
 ```
 publish("act3",["roofhunter",6]);
 ```
 
-r: Kid, I know that *you* know that animal *hurts* people like us. It *tortures* people like us.
+r: Eu știu că și *tu* știi, puștiule, că animalul asta ne *rănește*. Ne *torturează*.
 
 ```
 publish("act3",["roofhunter",19]);
 ```
 
-r: It's not our friend. It's a rabid beast, which either needs to be *tranquilized*,
+r: Nu ne este prieten. E un animal sălbatic turbat care trebuie fie *tranchilizat*,
 
 ```
 publish("act3",["roofhunter",20]);
 ```
 
-r: Or have a *bullet put in its skull*.
+r: fie *împușcat în cap, mortal*.
 
 ```
 publish("act3",["roofhunter",27]);
 ```
 
-r: Otherwise, you're going to let it win.
+r: Altfel îl lași să câștige.
 
 ```
 publish("act3",["roofhunter",31]);
@@ -200,7 +200,7 @@ publish("act3",["roofhong",14]);
 publish("act3",["dd",2]);
 ```
 
-h2: No. You're wrong.
+h2: Nu. Nu ai dreptate.
 
 ```
 publish("act3",["roofhunter",13]);
@@ -210,7 +210,7 @@ music('battle_dark', {volume:1.0}, function(){
 });
 ```
 
-h2: I'm not going to let it win.
+h2: Nu am să-l las să câștige.
 
 ```
 publish("act3",["roofhunter",25]);
@@ -219,7 +219,7 @@ publish("act3-alpha", ["transition",1]);
 publish("act3",["dd",6]);
 ```
 
-r: ^Fuck^ yeah! I believe in you, babe! Kill it! <3
+r: Așa da! Așa te vreau, știu că poți! Omoară-! <3
 
 (#act3a)
 
@@ -240,13 +240,13 @@ _.act3_bb_body = 1;
 publish("hp_show");
 ```
 
-b: no no no no no no
+b: nu nu nu nu nu nu
 
-n: THIS CHAPTER HAS TWO POSSIBLE ENDINGS. ONE IS *VERY, VERY BAD.*
+n: CAPITOLUL ASTA ARE DOUĂ POSIBILE FINALURI. UNUL DIN ELE E *FOARTE NASOL.*
 
-b: NO NO NO NO NO NO NO NO NO NO NO NO NO NO
+b: NU NU NU NU NU NU NU NU NU NU NU NU NU NU
 
-n: CHOOSE WISELY. PROTECT YOUR HUMAN
+n: FĂ ALEGEREA CORECTĂ. PROTEJEAZĂ-ȚI OMUL.
 
 `bb({ eyes:"oh_crap", mouth:"normal_talk", MOUTH_LOCK:true });`
 
@@ -254,24 +254,24 @@ b: AAAAAAAAAAAAAAAAAA
 
 `bb({ mouth:"normal" });`
 
-n: GOOD LUCK
+n: SUCCES
 
 ```
 Game.clearText();
 bb({ eyes:"start" });
 ```
 
-[Human, you could actually DIE here!](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
+[Poți SĂ MORI pe bune, acum, aici!](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[This is stupid and self-destructive!](#act3a_bad) `Game.OVERRIDE_CHOICE_LINE=true`
+[E stupid și autodistructiv ce vrei să faci!](#act3a_bad) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[These sickos aren't really your friends!](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
+[Demenții ăștia nu îți sunt cu adevărat prieteni!](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act3a_harm
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: H--
+b: P--
 
 (#act3a_after)
 
@@ -279,7 +279,7 @@ b: H--
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: T--
+b: E--
 
 (#act3a_after)
 
@@ -287,7 +287,7 @@ b: T--
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: T--
+b: D--
 
 (#act3a_after)
 
@@ -307,9 +307,9 @@ hong({ body:"normal" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: You know, I might've believed you... if you hadn't tried that a zillion times before.
+h: Te-aș fi crezut poate, dacă nu mi-ai fi spus același lucru de un catralion de ori deja...
 
-h: You're the wolf who cried wolf.
+h: Ești lupul care a strigat "lupul!".
 
 ```
 bb({ eyes:"sad" });
@@ -354,41 +354,41 @@ hong({ body:"normal" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: You tried that too.
+h: Ai încercat și asta.
 
-b: human, please...
+b: omule, te rog...
 
 `hong({ eyes:"look_right" });`
 
-h: Oh I'm *sorry* Big Pharma doesn't approve of my self-medication.
+h: *Regret nespus* că nu sunt de acord corporațiile farma ca eu să mă tratez singur.
 
-h: Look ^asshole^, we *all* have a way of shutting you the ^fuck^ up.
+h: Știi ce? *Toată* lumea încearcă să te facă să taci din gură, fiecare cum poate.
 
 `hong({ body:"look_up", eyes:"look_up" });`
 
-h: Some people throw themselves into work.
+h: Unii oameni se aruncă în muncă.
 
 `hong({ body:"look_down", eyes:"look_down" });`
 
-h: Some people throw themselves into sex, drugs, and refreshing their Facebook feed.
+h: Alții se aruncă în Facebook, sex sau droguri.
 
 `hong({ body:"normal", eyes:"look_right" });`
 
-h: Some people throw themselves into other people. 
+h: Unii oameni se aruncă în alți oameni. 
 
 `hong({ eyes:"angry" });`
 
-h: I'm going to throw myself into that swimming pool.
+h: Iar eu - eu am să mă arunc în această piscină.
 
-[You're drunk and it's SIX FLOORS DOWN](#act3_bad_1_harm)
+[Ești beat și PISCINA E 6 ETAJE SUB NOI.](#act3_bad_1_harm)
 
-[Dang it, this is the thanks I get?!](#act3_bad_1_insult) `bb({eyes:"angry"});`
+[Astea sunt mulțumirile pe care le primesc?!](#act3_bad_1_insult) `bb({eyes:"angry"});`
 
-[Okay, I admit it. I messed up.](#act3_good_1) `bb({mouth:"sorry", eyes:"sorry_down"});`
+[Okay, recunosc. Am greșit.](#act3_good_1) `bb({mouth:"sorry", eyes:"sorry_down"});`
 
 # act3_bad_1_harm
 
-b: Even if you land in the water, the surface tension will crack your ribs and give you a concussion *at the least!*
+b: Chiar dacă nimereși apa, tensiunea superficială din stratul de suprafață al apei îți poate rupe coastele, *cel puțin*!
 
 h: Eh.
 
@@ -406,7 +406,7 @@ hong({ body:"normal", mouth:"angry", eyes:"angry" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: I saw a Russian guy do this on YouTube once.
+h: Am văzut o dată pe YouTube un rus care a făcut asta.
 
 (#act3_bad_2)
 
@@ -414,13 +414,13 @@ h: I saw a Russian guy do this on YouTube once.
 
 `hong({ eyes:"look_right" });`
 
-h: I- Excuse me, the *thanks?*
+h: Pardon?! Poftim? *Mulțumiri?!*
 
 `bb({ eyes:"angry" });`
 
-b: This is exactly why I *exist!* Because humans can't be trusted to protect themselves!
+b: Asta este motivul pentru care eu *exist*! Pentru că oamenii nu sunt în stare să aibă grijă de ei înșiși!
 
-b: I've been trying to protect your stupid butt all my life and now you're just going t--
+b: Toată viața n-am făcut decât să încerc să am grijă de tine și acum tu o să--
 
 ```
 hong({body:"drink"});
@@ -457,26 +457,26 @@ bb({ eyes:"sorry"});
 hong({ body:"yell_1", mouth:"yell", eyes:"blank" });
 ```
 
-h: Oh WOW is that the biggest *^fuck^ing* understatement of the century!
+h: Oh Doamne Dumnezeule dacă nu e asta cea mai mare subestimare A SECOLULUI!
 
 `hong({ body:"yell_2" });`
 
-h: Yeah, you rotting pile of blood-coated ^shit^! You messed the ^fuck^ up!
+h: Da, animal împuțit nenorocit de mega ^căcat^! Absolut ai greșit! Și e puțin spus ai greșit!
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" });`
 
-h: Any other remarks, Captain Obvious?
+h: Mai ai și alte remarci, Captain Obvious?
 
-[But revenge on me isn't the answer!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
+[Dar soluția nu este răzbunarea!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
-[But this time I'm *actually* right!](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
+[Dar de data asta *chiar* am dreptate!](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
-[I've hurt you.](#act3_good_2a)
+[Te-am rănit.](#act3_good_2a)
 
 
 # act3_good_1_fail_revenge
 
-b: You need to have a healthier relationship with your emotions, rather than drown them wi--
+b: Trebuie să încerci să ai o relație mai sănătoasă cu propriile tale emoții, în loc să le înneci în--
 
 ```
 hong({body:"drink"});
@@ -498,7 +498,7 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 # act3_good_1_fail_harm
 
-b: So please, put the bottle down and let's--
+b: Așa că te rog, pune sticla jos și hai să--
 
 ```
 hong({body:"drink"});
@@ -523,24 +523,24 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 `bb({ eyes:"sad" });`
 
-b: please... don't...
+b: te rog... nu...
 
-h: Your energy bar's looking awfully low there, wolf.
+h: Bara ta cu energie nu arată prea bine, lupoaică dragă.
 
-h: If I were you, I'd choose your next words very carefully.
+h: În locul tău mi-aș alege cu foarte mare atenție următoarele cuvinte.
 
 `bb({ eyes:"normal" });`
 
-[Fine. I'm done protecting you.](#act3_bad_2_jump) `bb({ mouth:"ignore", eyes:"ignore" });`
+[Fie. Gata, nu te mai protejez.](#act3_bad_2_jump) `bb({ mouth:"ignore", eyes:"ignore" });`
 
-[I was right all along.](#act3_bad_2_right)
+[Ha, am avut mereu dreptate.](#act3_bad_2_right)
 
-[I'm sorry.](#act3_good_2b) `bb({mouth:"sorry", eyes:"sorry_down"});`
+[Îmi pare rău.](#act3_good_2b) `bb({mouth:"sorry", eyes:"sorry_down"});`
 
 
 # act3_bad_2_jump
 
-b: So, go ahead and jump. See what I care.
+b: Așa că, hai, aruncă-te, sari. Nu-mi pasă.
 
 `hong({ eyes:"look_right", mouth:"normal", MOUTH_LOCK:true });`
 
@@ -551,14 +551,14 @@ hong({ eyes:"less_angry", mouth:"normal" });
 bb({ eyes:"ignore_oh_crap" });
 ```
 
-h: Okay then. Bottoms up.
+h: Okay atunci. Până la fund.
 
 ```
 bb({ mouth:"normal", eyes:"oh_crap" });
 Game.OVERRIDE_TEXT_SPEED = 2;
 ```
 
-b: WAIT NO THAT WAS REVERSE PSYCHOLOGY YOU WERE SUPPOSED TO DO THE *OPPOSITE* OF WHAT I SA--
+b: NU! STAI! ASTA ERA PSIHOLOGIE INVERSĂ, TREBUIA SĂ FACI FIX *OPUSUL* A CEEA CE AM SPUS E--
 
 (#act3_bad_3)
 
@@ -568,13 +568,13 @@ b: WAIT NO THAT WAS REVERSE PSYCHOLOGY YOU WERE SUPPOSED TO DO THE *OPPOSITE* OF
 
 `bb({ eyes:"angry" });`
 
-b: You *are* putting yourself in danger. Your so-called friends *are* using you. And *you* are using your so-called friends.
+b: *Chiar* te pui tu pe tine însuți în pericol. Așa-zișii tăi prieteni *chiar* te folosesc. Iar *tu* îi folosești pe ei..
 
 `bb({ eyes:"sad" });`
 
-b: So please, human... why don't you believe me?!
+b: Așa că, te rog.. te rog, de ce nu mă crezi?!
 
-h: Because you never believed in *me*.
+h: Pentru că nici tu nu m-ai crezut niciodată pe *mine*.
 
 (#act3_bad_3)
 
@@ -583,13 +583,13 @@ h: Because you never believed in *me*.
 
 `bb({ eyes:"angry" });`
 
-b: Other guard-wolves have humans who actually take time to patiently train them, to *learn* to work together,
+b: Altor lupi de pază le revin oameni care investesc timp în relație, îi duc la antrenament, *învață* să lucreze împreună,
 
-b: Rather than hate the guard-wolves for trying to protect them! So why can't you jus--
+b: În loc să își urască lupul pentru că acesta încearcă să îi protejeze! De ce nu poți fi și tu --
 
 `bb({ eyes:"normal" });`
 
-h: Wrong ^fuck^ing answer.
+h: Răspuns greșit.
 
 (#act3_bad_3)
 
@@ -614,7 +614,7 @@ bb({ body:"dead" });
 
 (...999)
 
-h: *"The only thing to fear is fear itself."*
+h: *"Să nu îți fie frică decât de însăși frica."*
 
 `hong({ body:"look_up", mouth:"happy", eyes:"blank" });`
 
@@ -622,21 +622,21 @@ h: *"Don't worry, be happy!"*
 
 `hong({ body:"normal", mouth:"normal", eyes:"normal" });`
 
-h: All the wise folk of our time agree: negative emotions are *bad!*
+h: Toți înțelepții de azi sunt de acord: emoțiile negative sunt *rele!*
 
 `hong({ eyes:"less_angry" });`
 
-h: Duh! That's why they're called *negative!*
+h: Duh! De aia se și numesc *negative!*
 
-b: human... please...
+b: omul meu... te rog...
 
 `hong({ eyes:"normal" });`
 
-h: A while back, I said: “I just want to be free from all this pain.”
+h: Am zis acum mai demult că "tot ce vreau e să nu mai simt toată durerea asta!”
 
-h: I got my wish. I no longer feel pain, or fear, or anxiety...
+h: Mi s-a îndeplinit dorința. Nu mai simt, nici durere, nici frică, nici anxietate...
 
-h: I don't feel anything at all.
+h: Nu mai simt absolut nimic.
 
 `_.a3_ending = "jump";`
 
@@ -648,22 +648,22 @@ h: I don't feel anything at all.
 
 `bb({mouth:"sorry", eyes:"sorry_down"});`
 
-b: I was so obsessed with making sure nothing else hurt you, that I didn't realize *I* was creating the hurt.
+b: Am fost obsedat de ideea că ceva ar putea să îți facă rău încât nu am realizat că *eu* îți făceam rău.
 
 ```
 bb({ eyes:"sorry"});
 hong({ body:"yell_2", mouth:"yell", eyes:"blank" });
 ```
 
-h: NO. S^HIT^.
+h: NU PE BUNE.
 
 `hong({ body:"yell_1" });`
 
-h: ^GODDAMN^. It really took you this long to finally figure it out?!
+h: SERIOS?! Chiar ți-a luat atâta amar de vreme să îți dai seama?!
 
 `hong({ body:"cry", mouth:"cry", eyes:"blank" });`
 
-h: You could've saved us so much trouble, you big fluffy dumb^ass^. Why didn't you realize this sooner?...
+h: Puteai să ne scutești pe amândoi de o grămadă de probleme. Cum de nu ai putut să înțelegi asta mai devreme?...
 
 `_.apologized_for_hurt = true;`
 
@@ -675,13 +675,13 @@ h: You could've saved us so much trouble, you big fluffy dumb^ass^. Why didn't y
 
 `hong({ body:"normal", mouth:"angry", eyes:"look_right" });`
 
-h: ...you're *sorry.*
+h: ...îți *pare rău*
 
 `hong({ eyes:"angry", MOUTH_LOCK:true });`
 
 h: ...
 
-h: Sorry for *what*?
+h: *pentru ce* îți pare rău?
 
 (#act3_good_2q)
 
@@ -703,22 +703,22 @@ h: Sorry for *what*?
 
 `hong({ body:"normal", mouth:"angry", eyes:"less_angry" });`
 
-[I'm sorry I wasn't a good protector.](#act3_good_3_protector)
+[Îmi pare rău că nu te-am protejat.](#act3_good_3_protector)
 
-[I'm sorry I didn't respect you.](#act3_good_3_respect)
+[Îmi pare rău că nu te-am respectat.](#act3_good_3_respect)
 
-[I'm sorry.](#act3_good_4)
+[Îmi pare rău.](#act3_good_4)
 
 
 # act3_good_2q_not_already_apologized
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" }, 0);`
 
-[I'm sorry I have a terrible human!](#act3_bad_2_terrible) `bb({mouth:"normal", eyes:"normal"})`
+[Îmi pare rău că omul meu e oribil!](#act3_bad_2_terrible) `bb({mouth:"normal", eyes:"normal"})`
 
-[I'm sorry I didn't respect you.](#act3_good_3_respect)
+[Îmi pare rău că nu te-am respectat.](#act3_good_3_respect)
 
-[I'm sorry I hurt you.](#act3_good_3_hurt)
+[Îmi pare rău că te-am rănit.](#act3_good_3_hurt)
 
 
 
@@ -726,19 +726,19 @@ h: Sorry for *what*?
 
 `bb({eyes:"sorry_down"});`
 
-b: It's my duty to warn you against *real* danger, but I kept barking at cars and the mailman.
+b: Datoria mea este să te protejez de pericole *reale*, dar eu latru la mașini și la poștaș.
 
 `bb({eyes:"sorry_up"});`
 
-b: Barking at shadows. Barking so much.
+b: Latru la umbre. Latru prea mult.
 
 `bb({eyes:"sorry"});`
 
-b: It only makes sense that you'd want to muzzle me.
+b: Are sens atunci că vrei să îmi pui botniță.
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: Îmi pare rău.
 
 (#act3_good_4)
 
@@ -748,15 +748,15 @@ b: I'm sorry.
 
 `bb({eyes:"sorry_down"});`
 
-b: I was supposed to be *your* loyal guard-dog, but I acted as if you were supposed to obey *me*.
+b: E responsabilitatea *mea* să te protejez și să te ascult, dar m-am comportat că și cum *tu* trebuie să asculți de mine orbește.
 
 `bb({eyes:"sorry_up"});`
 
-b: There's a difference between a protector and a prison warden, and I crossed the line.
+b: E o diferență între un protector și un paznic, iar eu am întrecut măsura.
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: Îmi pare rău.
 
 (#act3_good_4)
 
@@ -766,15 +766,15 @@ b: I'm sorry.
 
 `bb({eyes:"sorry_down"});`
 
-b: I was so obsessed with trying to protect you from being hurt, I never stopped to realize *I* was hurting you.
+b: Eram atât de obsedat de ideea de a te proteja cu orice preț încât nu am văzut că *eu* sunt cel care îți face rău.
 
 `bb({eyes:"sorry_up"});`
 
-b: I was a bad dog.
+b: Am fost un câine rău.
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: Îmi pare rău.
 
 (#act3_good_4)
 
@@ -792,11 +792,11 @@ h: ...
 hong({ body:"stop", mouth:"stop", eyes:"blank" });
 ```
 
-h: Yeah, well, this was a dumb idea anyway.
+h: Era o idee stupidă oricum ai lua-o..
 
-h: I only did this to mess you up, and, well, I messed you up.
+h: Nu am făcut asta decât să te enervez, și se pare că am reușit..
 
-h: Let's just call this round a tie, okay?
+h: Hai să zicem că terminăm la egalitate, ok?
 
 ```
 bb({ mouth:"sorry", eyes:"sorry" });
@@ -885,26 +885,26 @@ publish("act3",["roofhunter",27]);
 
 `Game.FORCE_CANT_SKIP = false;`
 
-r: Oh *come on*. After all that animal's done to you, you're just *giving up?*
+r: Ei să nu-mi spui! După tot ce ți-a făcut animalul asta, acuma o să *renunți?*
 
-r: What's the matter, kid? Are you *scared?*
+r: Ce s-a-ntâmplat, puștiule? Ți s-a făcut *frică?*
 
 ```
 publish('hong-next');
 publish("act3",["roofhunter",26]);
 ```
 
-h2: Yes.
+h2: Da.
 
-h2: I'm scared.
-
-`publish('hong-next')`
-
-h2: And that's okay!
+h2: Mi-e frică.
 
 `publish('hong-next')`
 
-h2: It's okay to be scared.
+h2: Și este absolut okay!
+
+`publish('hong-next')`
+
+h2: E okay să-ți fie frică.
 
 `publish('hong-next')`
 
@@ -973,7 +973,7 @@ publish("act3",["roofhunter",32]);
 publish("act3",["roofhunter",33]);
 ```
 
-r: Did they just lock the door?
+r: A-ncuiat cumva ușa?
 
 ```
 Game.clearAll();
