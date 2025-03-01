@@ -208,42 +208,42 @@ hong({body:"sigh_2"});
 bb({eyes:"look_down"});
 ```
 
-h: *sigh*
+h: *of*
 
 ```
 hong({body:"hold", eyes:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: So what the ^hell^ was the moral of this story?
+h: Așadar, care naiba a fost morala poveștii?
 
 `hong({body:"one_up", eyes:"annoyed"})`
 
-h: What did we even *learn*? I *was* being stupid, my "friends" *were* using me, and we almost frickin' *died*.
+h: Ce am *învățat* măcar? Mă *comportam* în mod prostesc, "prietenii" mei mă *foloseau*, și eram aproape de a *muri*.
 
 `hong({body:"normal", eyes:"normal"})`
 
 {{if _.INJURED}}
-[Yeah, not to mention the hospital bill.](#act4a_bill)
+[Mda, ca să nu mai vorbim de factura de la spital.](#act4a_bill)
 {{/if}}
 
 {{if !_.INJURED}}
-[Yeah, not to mention the liver damage.](#act4a_liver)
+[Mda, ca să nu mai vorbim de deteriorarea ficatului.](#act4a_liver)
 {{/if}}
 
-[Yeah, that *was* the worst-case scenario.](#act4a_worst)
+[Mda, ăla *era* scenariul cel mai prost.](#act4a_worst)
 
-[Yeah, I was right.](#act4a_right)
+[Mda, am avut dreptate.](#act4a_right)
 
 # act4a_bill
 
 `hong({eyes:"annoyed_l", mouth:"narrow"});`
 
-h: Right. I don't think my insurance plan covers "being a dumb^ass^".
+h: Corect. Nu cred ca asigurarea medicală îmi acoperă "imbecilitatea".
 
 `hong({eyes:"annoyed", mouth:"normal"});`
 
-b: And yet... we survived!
+b: Și totuși... am supraviețuit!
 
 `hong({eyes:"normal"});`
 
@@ -255,11 +255,11 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: We definitely shaved a few years off our life expectancy...
+b: Cu siguranță ne-am scurtat puțin din speranța de viață...
 
 `bb({eyes:"surprise"});`
 
-b: But at least we still *have* a life expectancy! We survived!
+b: Dar măcar încă *avem* o speranță de viață! Am supraviețuit!
 
 ```
 hong({eyes:"surprise"});
@@ -274,13 +274,13 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: And yet...
+b: Și totuși...
 
 h: Hm?
 
 `bb({eyes:"surprise"});`
 
-b: We survived!
+b: Am supraviețuit!
 
 (#act4b)
 
@@ -288,7 +288,7 @@ b: We survived!
 
 `bb({eyes:"normal_d"});`
 
-b: But... you were right, too.
+b: Însă... și tu ai avut dreptate.
 
 `hong({eyes:"surprise"});`
 
@@ -296,11 +296,11 @@ h: Hm?
 
 `bb({eyes:"normal"});`
 
-b: I *was* the wolf who cried wolf. So when *actual* danger came, you – justifiably – didn't believe me.
+b: Am *fost* lupul care a strigat lupul. Deci, când a fost *un adevărat* pericol, pe bună dreptate, nu m-ai crezut.
 
 `bb({eyes:"surprise_r"});`
 
-b: And yet, we survived!
+b: Și totuși, am supraviețuit!
 
 (#act4b)
 
@@ -311,7 +311,7 @@ bb({eyes:"normal", mouth:"normal"});
 hong({eyes:"normal", mouth:"normal"});
 ```
 
-b: Despite everything, we're still here.
+b: În ciuda a ce s-a întâmplat, încă suntem aici.
 
 `hong({eyes:"suspect"});`
 
