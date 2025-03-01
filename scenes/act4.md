@@ -219,12 +219,12 @@ h: Așadar, care naiba a fost morala poveștii?
 
 `hong({body:"one_up", eyes:"annoyed"})`
 
-h: Ce am *învățat* măcar? Mă *comportam* în mod prostesc, "prietenii" mei mă *foloseau*, și eram aproape de a *muri*.
+h: Ce am *învățat* măcar? Mă *comportam* într-un mod prostesc, "prietenii" mei mă *foloseau*, și eram aproape de a *muri*.
 
 `hong({body:"normal", eyes:"normal"})`
 
 {{if _.INJURED}}
-[Mda, ca să nu mai vorbim de factura de la spital.](#act4a_bill)
+[Mda, ca să nu mai vorbim de bonul de la spital.](#act4a_bill)
 {{/if}}
 
 {{if !_.INJURED}}
