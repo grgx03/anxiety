@@ -296,7 +296,7 @@ h: Hm?
 
 `bb({eyes:"normal"});`
 
-b: Am *fost* lupul care a strigat lupul. Deci, când a fost *un adevărat* pericol, pe bună dreptate, nu m-ai crezut.
+b: Am *fost* lupul care a strigat lupul. Așadar când a fost *un adevărat* pericol, pe bună dreptate, nu m-ai crezut.
 
 `bb({eyes:"surprise_r"});`
 
@@ -316,11 +316,11 @@ b: În ciuda a ce s-a întâmplat, încă suntem aici.
 `hong({eyes:"suspect"});`
 
 {{if _.INJURED}}
-h: You seem pretty calm considering we just had a near-death experience.
+h: Pari destul de calm, având în vedere că tocmai am avut o experiență aproape de moarte.
 {{/if}}
 
 {{if !_.INJURED}}
-h: You seem pretty calm considering we just had a *near*-near-death experience.
+h: Pari destul de calm, având în vedere că tocmai am avut o experiență *foarte* aproape de moarte.
 {{/if}}
 
 ```
@@ -328,21 +328,21 @@ hong({eyes:"normal"});
 bb({eyes:"annoyed_d", mouth:"narrow"});
 ```
 
-b: Well, it makes everything else less scary in comparison. It's also got me thinking.
+b: Ei bine, asta face totul -orice altceva- mai puțin înfricoșător în comparație. Chiar m-a făcut să mă gândesc. Well, it makes everything else less scary in comparison. It's also got me thinking.
 
 `bb({eyes:"normal", mouth:"normal"});`
 
-b: If me fighting you sucks, because it doesn't protect you...
+b: Dacă să mă cert cu tine este nașpa, pentru că nu te protejează... If me fighting you sucks, because it doesn't protect you...
 
-h: But me fighting you *also* sucks, because it just makes you yell louder...
+h: Dar să mă cert *eu* cu tine este nașpa, pentru că te face să strigi mai tare... But me fighting you *also* sucks, because it just makes you yell louder...
 
 `bb({eyes:"normal_r"})`
 
-b: Then maybe...
+b: Poate atunci...
 
 `bb({eyes:"normal"})`
 
-h: Maybe we don't have to fight.
+h: Poate nu trebuie să ne certăm.
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -381,15 +381,15 @@ music('dontfight',{fade:5, volume:0.6});
 bb({eyes:"annoyed_d"});
 ```
 
-b: I'm not a Big Bad Wolf. But I'm not a guard-wolf either.
+b: Nu sunt Lupul cel Rău. Dar nici câine de pază nu sunt. Dar nici I'm not a Big Bad Wolf. But I'm not a guard-wolf either.
 
 `bb({eyes:"sad_d"})`
 
-b: I'm a battered shelter dog.
+b: Sunt un câine de adăpost schingiuit. I'm a battered shelter dog.
 
 `bb({eyes:"sad"})`
 
-b: We've been through rough stuff. Maybe trauma or neglect. That's why I sometimes over-react and go:
+b: Am trecut prin chestii dure/dificile. Poate traumă sau neglijență. De aceea uneori mai exagerez și încep: We've been through rough stuff. Maybe trauma or neglect. That's why I sometimes over-react and go:
 
 ```
 sfx("yaps", {volume:0.6});
@@ -400,7 +400,7 @@ Game.FORCE_TEXT_DURATION = 90;
 Game.FORCE_NO_VOICE = true;
 ```
 
-b: YAP YAP YAP YAP YAP
+b: BLA BLA BLA BLA BLA
 
 (...1884)
 
@@ -410,23 +410,23 @@ Game.FORCE_CANT_SKIP = false;
 bb({body:"normal", mouth:"scream", eyes:"scream_sad"});
 ```
 
-b: But I don't *want* to be a cowardly dog! I want to protect you! I want to be a good dog!
+b: Dar nu *vreau* să fiu un câine fricos! Vreau să te protejez! Vreau să fiu un câine bun!
 
 `bb({eyes:"sad", mouth:"normal"});`
 
-b: Human... will you help tame this wolf?
+b: Omule... vei ajuta cu îmblânzirea acestui lup? Human... will you help tame this wolf?
 
 `hong({eyes:"sad"})`
 
-h: I... I'll try.
+h: Voi... Voi încerca. I... I'll try.
 
 `hong({eyes:"normal_l", body:"chin", mouth:"narrow"})`
 
-h: Okay. Healthy relationship with emotions. Relationships need communication. So, let's communicate.
+h: Ok. O relație sănătoasă cu emoții. Relațiile au nevoie de comunicare. Deci, să comunicăm. Okay. Healthy relationship with emotions. Relationships need communication. So, let's communicate.
 
 `hong({eyes:"normal", body:"hands_1", mouth:"normal"})`
 
-h: The next five minutes are going to sound super cheesy, but let's fake it 'til we make it.
+h: Următoarele cinci minute vor suna siropoase, dar hai să ne prefacem până reușim. The next five minutes are going to sound super cheesy, but let's fake it 'til we make it.
 
 ```
 hong({body:"hands_2", mouth:"normal"});
@@ -436,9 +436,9 @@ h: Dear inner wolf... how are *you* feeling?
 
 n2: TOTAL FEARS USED:
 
-n2: *HARMED* {{_.attack_harm_total}}, *UNLOVED* {{_.attack_alone_total}}, *BAD PERSON* {{_.attack_bad_total}}
+n2: *RĂNIT* {{_.attack_harm_total}}, *NEIUBIT* {{_.attack_alone_total}}, *PERSOANĂ REA* {{_.attack_bad_total}}
 
-n2: WHAT FEAR DO YOU WANT TO TALK ABOUT FIRST? (YOU CAN DO THE OTHERS LATER)
+n2: DESPRE CARE TEAMĂ VREI SĂ VORBEȘTI ÎNTÂI? (POȚI TRECE PRIN CELELALTE MAI TÂRZIU) WHAT FEAR DO YOU WANT TO TALK ABOUT FIRST? (YOU CAN DO THE OTHERS LATER)
 
 ```
 _.a4_fears_discussed = 0;
@@ -447,11 +447,11 @@ hong({body:"normal"});
 bb({eyes:"normal"});
 ```
 
-[I'm scared we'll be harmed.](#act4_harm)
+[Mi-e teamă că vom fi răniți. I'm scared we'll be harmed.](#act4_harm)
 
-[I'm scared we'll be alone.](#act4_alone)
+[Mi-e teamă că vom fi singuri. I'm scared we'll be alone.](#act4_alone)
 
-[I'm scared we're bad people.](#act4_bad)
+[Mi-e teamă că suntem niște persoane rele. I'm scared we're bad people.](#act4_bad)
 
 # act4_harm
 
@@ -462,92 +462,92 @@ _.a4_fears_discussed += 1;
 
 `bb({eyes:"normal_d"})`
 
-b: I want to protect your need for physical safety,
+b: Vreau să îți protejez nevoia de sigiranță fizică, I want to protect your need for physical safety,
 
 `bb({eyes:"sad_d"})`
 
-b: But the *whole world* seems so dangerous. So full of tragedy and evil.
+b: însă *toată lumea* pare atât de periculoasă. Atât de plină de tragedii și răutăți. But the *whole world* seems so dangerous. So full of tragedy and evil.
 
 `bb({eyes:"sad"})`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Nu știu, gata cu alegerea *mea* pentru următoarea replică. Ce ai *tu* de spus, omule? I dunno, enough of *me* choosing what to say next. What do *you* say, human?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: Din nou, înapoi la tine, omule. Ce crezi? Again, back to you, human. What do you think?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: Alte păreri, omule? More thoughts, human?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[You're right. So let's protect ourselves.](#act4_harm_skills)
+[Ai dreptate. Deci hai să ne apărăm reciproc./fim mai protectivi cu noi înșine. You're right. So let's protect ourselves.](#act4_harm_skills)
 
-[Let's expose ourselves to *more* danger.](#act4_harm_exposure)
+[Hai să ne explunem la *mai multe* pericole. Let's expose ourselves to *more* danger.](#act4_harm_exposure)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "physical safety";`
+[Îți mulțumesc.](#act4_thanks) `_.thanks_for = "physical safety";`
 
 # act4_harm_skills
 
 `bb({eyes:"look_down", body:"paw"})`
 
-b: But... how? I have fangs and claws, but I'm just a metaphor.
+b: Dar... cum? Am eu colți și gheare, dar nu sunt decât o metaforă. But... how? I have fangs and claws, but I'm just a metaphor.
 
 ```
 bb({ body:"normal", eyes:"normal" });
 hong({ body:"one_up", eyes:"surprise" });
 ```
 
-h: We could learn self-defense? Join a community that protects each other? Improve our general health & personal boundaries?
+h: Am putea învăța auto-apărare? Să ne alăturăm unei comunități în care se apără reciproc? Să ne îmbunătățim în general sănătatea și granițele personale? We could learn self-defense? Join a community that protects each other? Improve our general health & personal boundaries?
 
 ```
 bb({ eyes:"annoyed_r" });
 hong({ body:"normal", eyes:"normal" });
 ```
 
-b: Maybe, but...
+b: Poate, dar...
 
-[Where do we even start?](#act4_harm_skills_start)
+[De unde începem măcar? Where do we even start?](#act4_harm_skills_start)
 
-[What if they still don't work?](#act4_harm_skills_work)
+[Dacă soluțiile nu vor funcționa? What if they still don't work?](#act4_harm_skills_work)
 
-[What if we go overboard on "safety"?](#act4_harm_skills_overboard)
+[Dacă exagerăm cu „siguranța”? What if we go overboard on "safety"?](#act4_harm_skills_overboard)
 
 # act4_harm_skills_start
 
 `bb({ eyes:"sad_d" })`
 
-b: There's so much to do, so much we need to fix about ourselves. What do we even *begin* with?
+b: Sunt atâtea de făcut, atât de multe de reparat la noi. Cu ce *începem* măcar? There's so much to do, so much we need to fix about ourselves. What do we even *begin* with?
 
 `hong({ body:"shrug", eyes:"surprise" })`
 
-h: We're beginning right now.
+h: Începem chiar acum.
 
 `bb({ eyes:"normal", mouth:"narrow" })`
 
-b: Eh?
+b: Ha?
 
 ```
 bb({ body:"normal", mouth:"normal" });
 hong({ body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: We're practicing good communication right now. Which will help us detect danger better, with fewer false positives,
+h: Practicăm/Antrenăm o bună comunicare chiar acum. Care ne va ajuta să descoperim mai ușor pericolele, cu mai puține fals-pozitive, We're practicing good communication right now. Which will help us detect danger better, with fewer false positives,
 
 `hong({ eyes:"surprise" });`
 
-h: And *that* will help protect us from harm!
+h: Iar *asta* ne va ajuta să ne protejeze de a fi răniți! And *that* will help protect us from harm!
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Therefore: this *is* self-defense training.
+h: Așadar: asta *este* un antrenament de auto-apărare. Therefore: this *is* self-defense training.
 
 `bb({ eyes:"normal_r" })`
 
-b: Huh. I was expecting more of this:
+b: Hm. Mă așteptam mai mult la asta: I was expecting more of this:
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -567,26 +567,26 @@ sfx("hiya");
 
 `bb({ eyes:"normal" });`
 
-h: True, there's no way to 100% protect ourselves...
+h: Adevărat, nu este posibil să ne apărăm 100% de pericole...True, there's no way to 100% protect ourselves...
 
 `hong({ body:"one_up" });`
 
-h: But even a 1% improvement is still worth something, right?
+h: Dar până și o îmbunătățire de 1% merită ceva, corect? But even a 1% improvement is still worth something, right?
 
 ```
 bb({ eyes:"annoyed" });
 hong({ normal:"one_up" });
 ```
 
-b: You're seeing the glass as not 99% empty, but 1% full?
+b: Vezi paharul a nu fi 99% gol, dar 1% plin? You're seeing the glass as not 99% empty, but 1% full?
 
 `bb({ eyes:"normal" });`
 
-h: Which is still worth something if you're stranded in the desert.
+h: Care tot contează dacă ești blocat într-un deșert. Which is still worth something if you're stranded in the desert.
 
 `bb({ eyes:"closed" });`
 
-b: Well. Bottoms up, then.
+b: Ei bine. Până la fund, atunci. Well. Bottoms up, then.
 
 (#act4_something_else)
 
@@ -594,26 +594,26 @@ b: Well. Bottoms up, then.
 
 `bb({ body:"chest", eyes:"annoyed" })`
 
-b: I mean, the whole reason you ignored my warnings was because *I* went overboard with safety! 
+b: Adică, motivul principal pentru care mi-ai ignorat avertismentele a fost pentru ca *eu* am exagerat cu siguranța! I mean, the whole reason you ignored my warnings was because *I* went overboard with safety! 
 
 `bb({ body:"normal", eyes:"normal" })`
 
-h: Naw, you're right. We would want to do safety in moderation. Everything in moderation.
+h: Neh, ai dreptate. Am vrea să ne apărăm cu moderație. Totul să fie cu moderație. Naw, you're right. We would want to do safety in moderation. Everything in moderation.
 
 `bb({ eyes:"suspect" })`
 
-b: Sorry, *EVERYTHING* in moderation?
+b: Pardon, *TOTUL* să fie cu moderație? Sorry, *EVERYTHING* in moderation?
 
 `hong({ eyes:"annoyed" })`
 
-h: *A moderate number of things* in moderation.
+h: *Un număr moderat de chestii* să fie cu moderație. *A moderate number of things* in moderation.
 
 ```
 bb({ eyes:"closed" });
 hong({ eyes:"normal" });
 ```
 
-b: Thank you for making your statements recursively self-consistent.
+b: Mulțumesc pentru că te-ai străduit într-un mod repetat să-ți faci mărturiile consecvente**. Thank you for making your statements recursively self-consistent.
 
 (#act4_something_else)
 
@@ -622,18 +622,18 @@ b: Thank you for making your statements recursively self-consistent.
 
 `bb({ mouth:"scream_talk", eyes:"scream", MOUTH_LOCK:true });`
 
-b: *WHAT*
+b: *CE*
 
 ```
 bb({ mouth:"narrow", eyes:"suspect" });
 hong({ body:"one_up" });
 ```
 
-h: I mean, let's say a dog is scared of thunder.
+h: Adică, să spunem că unui câine îi e frică de tunet. I mean, let's say a dog is scared of thunder.
 
 `hong({ body:"hands_1" });`
 
-h: One trick trainers use is to play a recording of thunder at a low volume, then give the dog a treat for staying calm.
+h: Un truc pe care dresorii îl folosesc este să redea o înregistrare a tunetului la volum mic, apoi îi oferă câinelui o recompensă că a rămas calm. One trick trainers use is to play a recording of thunder at a low volume, then give the dog a treat for staying calm.
 
 `hong({ body:"hands_2" });`
 
