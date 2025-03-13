@@ -637,26 +637,26 @@ h: Un truc pe care dresorii îl folosesc este să redea o înregistrare a tunetu
 
 `hong({ body:"hands_2" });`
 
-h: Over several days, the trainer raises the volume bit by bit, until the dog has overcome their fear of thunder.
+h: După câteva zile, dresorul crește volumul puțin câte puțin, până când câinele și-a depășit frica de tunete. Over several days, the trainer raises the volume bit by bit, until the dog has overcome their fear of thunder.
 
 ```
 hong({ body:"normal", eyes:"surprise" });
 bb({ mouth:"normal", eyes:"normal" });
 ```
 
-h: It's called exposure therapy!
+h: Se numește terapie prin expunere! It's called exposure therapy!
 
 `hong({ body:"point", eyes:"normal" });`
 
-h: Since you're a dog, it should work for you too, right? All mammals have the same fight-or-flight response.
+h: Având în vedere că ești un câine, ar trebui să meargă și pentru tine, nu? Toate mamiferele au același răspuns de a lupta sau fugi. Since you're a dog, it should work for you too, right? All mammals have the same fight-or-flight response.
 
 `hong({ body:"normal" });`
 
-[What if we desensitize *too* much?](#act4_harm_exposure_overboard)
+[Dacă ne desensibilizăm *prea* mult?](#act4_harm_exposure_overboard)
 
-[What if we're exposed to *real* danger?](#act4_harm_exposure_hurt)
+[Dacă suntem expuși unui pericol *real*?](#act4_harm_exposure_hurt)
 
-[I'm a wolf, not a dog.](#act4_harm_exposure_dog) `bb({ eyes:"suspect" })`
+[Sunt un lup, nu un câine.](#act4_harm_exposure_dog) `bb({ eyes:"suspect" })`
 
 # act4_harm_exposure_dog
 
@@ -668,7 +668,7 @@ b: ...
 
 `bb({ eyes:"sad", mouth:"smile" })`
 
-b: D'aw.
+b: Ododod. D'aw.
 
 (#act4_something_else)
 
@@ -676,35 +676,35 @@ b: D'aw.
 
 `bb({ eyes:"annoyed" })`
 
-b: We *just* saw what happens if you shut down your fear – you put yourself in *actually* dangerous situations.
+b: *Tocmai* ce am văzut ce se întâmplă dacă îți ignori temerile: te poți pune în niște situații *într-adevăr* periculoase. We *just* saw what happens if you shut down your fear – you put yourself in *actually* dangerous situations.
 
 `bb({ eyes:"angry_r", body:"one_up" })`
 
-b: Besides, won't *too* much desensitization turn us into psychopaths?
+b: Pe lângă asta, nu cumva *prea* multă desensibilizare ne va transforma în psihopați? Besides, won't *too* much desensitization turn us into psychopaths?
 
 `bb({ mouth:"scream", eyes:"scream", body:"two_up" })`
 
-b: Soon we'll give ourselves treats while watching snuff murder porn!
+b: În curând ne vom recompensa în timp ce ne vom uita la ^porno^ dezgustător cu crime! Soon we'll give ourselves treats while watching snuff murder porn!
 
 `hong({ eyes:"annoyed" })`
 
-h: I... think there's a line between that and the thunder.
+h: Cred... că este o limită dintre asta și un tunet. I... think there's a line between that and the thunder.
 
 `bb({ body:"normal", mouth:"normal", eyes:"suspect" })`
 
-b: But exactly *where*, human? *Where?!*
+b: Dar *unde* mai exact, omule? *Unde?!* But exactly *where*, human? *Where?!*
 
 `hong({ eyes:"surprise", body:"one_up" })`
 
-h: I don't know. But *you* can help me!
+h: Nu știu. Dar *tu* mă poți ajuta! I don't know. But *you* can help me!
 
 `hong({ eyes:"normal", body:"normal" })`
 
-h: Working and negotiating with you, we'll draw that line.
+h: Lucrând și negociind cu tine, vom trage acea linie. Working and negotiating with you, we'll draw that line.
 
 `bb({ body:"paw", mouth:"narrow", eyes:"closed" })`
 
-b: Okay. But I've got no opposable thumbs, so you have to do the drawing.
+b: Ok. Dar nu am degete, deci tu va trebui să o faci. Okay. But I've got no opposable thumbs, so you have to do the drawing.
 
 (#act4_something_else)
 
@@ -713,11 +713,11 @@ b: Okay. But I've got no opposable thumbs, so you have to do the drawing.
 `bb({ body:"two_up", eyes:"angry_r" })`
 
 {{if _.INJURED}}
-b: For example: we jumped off a freaking *roof!*
+b: De exemplu: am sărit de pe *acoperiș!* For example: we jumped off a freaking *roof!*
 {{/if}}
 
 {{if !_.INJURED}}
-b: For example: we almost jumped off a freaking *roof!*
+b: De exemplu: aproape am sărit de pe *acoperiș!* For example: we almost jumped off a freaking *roof!*
 {{/if}}
 
 ```
@@ -725,17 +725,17 @@ hong({ eyes:"annoyed" });
 bb({ body:"normal", eyes:"annoyed" });
 ```
 
-h: Nah you're right. One *can* go too far.
+h: Neh, ai dreptate. Oricine *poate* merge prea departe. Nah you're right. One *can* go too far.
 
 `hong({ eyes:"normal" });`
 
-h: But that's why, if we do exposure therapy, we'll start small, and make small steps upward.
+h: Dar de aceea, dacă facem terapia prin expunere, vom începe făcând niște pași mici înainte. But that's why, if we do exposure therapy, we'll start small, and make small steps upward.
 
-h: Just before we hit *actual* danger, we stop.
+h: Tocmai înainte de a fi într-un *adevărat* pericol, ne vom opri. Just before we hit *actual* danger, we stop.
 
 `bb({ eyes:"annoyed_r", mouth:"narrow" });`
 
-b: Yeah I draw the line between hearing loud thunder, and standing in a storm with a tall pointy hat.
+b: Mda, trag linie dintre un tunet și a sta într-o furtună purtând un coif ascuțit. Yeah I draw the line between hearing loud thunder, and standing in a storm with a tall pointy hat.
 
 (#act4_something_else)
 
@@ -763,11 +763,11 @@ b: ...
 
 `bb({ eyes:"annoyed" })`
 
-b: Wait, no arguments for or against what I'm feeling? Just... "thank you"?
+b: Stai așa, nimic de spus legat sau împotriva a ceea se simt? Doar un... „mulțumesc”? Wait, no arguments for or against what I'm feeling? Just... "thank you"?
 
 `hong({ eyes:"surprise", body:"shrug" })`
 
-h: Yeah! Thank you for showing your concern for my {{_.thanks_for}}.
+h: Da! Îți mulțumesc de grija pentru Yeah! Thank you for showing your concern for my {{_.thanks_for}}.
 
 ```
 bb({ eyes:"closed_annoyed", MOUTH_LOCK:true });
@@ -776,25 +776,25 @@ hong({ eyes:"normal", body:"normal" });
 
 b: ...
 
-h: You okay?
+h: Ești bine?
 
 `bb({ eyes:"super_sad", mouth:"narrow" });`
 
-b: You've never said *thank you* to me before.
+b: Nu mi-ai mai spus niciodată *mulțumesc* înainte.
 
 `hong({ mouth:"smile" });`
 
-h: Aw you big fuzzy-wuzzy panic-wolf.
+h: Ododod, ce lup pufos și speriat ești. Aw you big fuzzy-wuzzy panic-wolf.
 
 (#act4_something_else)
 
 # act4_thanks_2
 
-h: Even if you over-react, I appreciate you looking out for my {{_.thanks_for}}.
+h: Chiar dacă exagerezi, apreciez că ai grijă pentru Even if you over-react, I appreciate you looking out for my {{_.thanks_for}}.
 
 `bb({ eyes:"annoyed" })`
 
-b: Wait... you're not just repeating "thank you" to avoid actually talking about these fears, are you?
+b: Stai... nu repeți „mulțumesc” doar pentru a evita să vorbești despre acele frici, nu? Wait... you're not just repeating "thank you" to avoid actually talking about these fears, are you?
 
 ```
 bb({ eyes:"normal" });
@@ -805,13 +805,13 @@ h: Well, stuff's complicated, and I don't always have answers ready.
 
 `hong({ eyes:"annoyed_l", body:"one_up" })`
 
-h: It's not like life gives you a list of 3 pre-made dialogue responses.
+h: Nu e ca și cum viața ți-ar da o listă de 3 răspunsuri -dialog de răspuns?- pregătite. It's not like life gives you a list of 3 pre-made dialogue responses.
 
 `hong({ eyes:"normal", mouth:"smile", body:"normal" })`
 
-h: But for now, I can at least say thanks.
+h: Dar acum, pot măcar să îți mulțumesc. But for now, I can at least say thanks.
 
-b: Well, thank you too, for listening to me patiently.
+b: Ei bine, și eu îți mulțumesc, pentru că m-ai ascultat cu răbdare. Well, thank you too, for listening to me patiently.
 
 `bb({ eyes:"closed" });`
 
@@ -1760,7 +1760,7 @@ Game.WORDS_HEIGHT_BOTTOM = 195;
 publish("act4", ["alshire", 6]);
 ```
 
-s: RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN
+s: FUGI FUGI FUGI FUGI FUGI FUGI FUGI FUGI FUGI FUGI FUGI FUGI FUGI FUGI FUGI
 
 ```
 Game.clearText();
