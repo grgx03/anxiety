@@ -400,7 +400,7 @@ Game.FORCE_TEXT_DURATION = 90;
 Game.FORCE_NO_VOICE = true;
 ```
 
-b: BLA BLA BLA BLA BLA
+b: HAM HAM HAM HAM HAM
 
 (...1884)
 
@@ -784,7 +784,7 @@ b: Nu mi-ai mai spus niciodată *mulțumesc* înainte.
 
 `hong({ mouth:"smile" });`
 
-h: Ododod, ce lup pufos și speriat ești. Aw you big fuzzy-wuzzy panic-wolf.
+h: Ododod, lup pufos și speriat care ești. Aw you big fuzzy-wuzzy panic-wolf.
 
 (#act4_something_else)
 
@@ -815,28 +815,28 @@ b: Ei bine, și eu îți mulțumesc, pentru că m-ai ascultat cu răbdare. Well,
 
 `bb({ eyes:"closed" });`
 
-b: You small hairless flesh-mammal.
+b: Bucată de carne cheală și mică ce ești. You small hairless flesh-mammal.
 
 (#act4_something_else)
 
 # act4_thanks_3
 
-h: Even if your yapping scares me, you're simply trying to protect my {{_.thanks_for}}.
+h: Chiar dacă lătratul tău mă sperie, încerci pur și simplu să-mi protejezi. Even if your yapping scares me, you're simply trying to protect my {{_.thanks_for}}.
 
 `bb({ eyes:"smile_r" });`
 
-b: Okay, if you keep flattering me like this, the internet's gonna get some weird ideas about us.
+b: Ok, dacă mă mai lauzi atât, internetul își va face idei dubioase despre noi. Okay, if you keep flattering me like this, the internet's gonna get some weird ideas about us.
 
 ```
 bb({ eyes:"smile" });
 hong({ eyes:"annoyed" });
 ```
 
-h: C'mon, I'm just a vulnerable college-age kid and you're a big, scary wolf. What's the worst that cou--
+h: Hai măi, sunt doar un student vai de capul său, iar tu ești un lup mare și înfricoșător. Ce s-ar putea întâmpla mai ră-- C'mon, I'm just a vulnerable college-age kid and you're a big, scary wolf. What's the worst that cou--
 
 `hong({ eyes:"normal", body:"point" });`
 
-h: Actually, do not answer that.
+h: De fapt, nu răspunde. Actually, do not answer that.
 
 (#act4_something_else)
 
@@ -852,33 +852,33 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"sad_d" });`
 
-b: I want to make sure you fulfil that deep, human need to belong...
+b: Vreau să fiu sigur că îți împlinești nevoia adâncă și umană de a apartenență... I want to make sure you fulfil that deep, human need to belong...
 
 `bb({ eyes:"sad_u" });`
 
-b: But I worry that if anyone ever knew us – the *real* us – we'd scare them all away.
+b: Dar mi-e teamă că dacă cineva ar ști de cine suntem noi *cu adevărat*, i-am face să dea bir cu fugiții. But I worry that if anyone ever knew us – the *real* us – we'd scare them all away.
 
 `bb({ eyes:"sad" });`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Nu știu, gata cu alegerea *mea* pentru următoarea replică. Ce ai *tu* de spus, omule? I dunno, enough of *me* choosing what to say next. What do *you* say, human?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: Din nou, înapoi la tine, omule. Ce crezi? Again, back to you, human. What do you think?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: Alte păreri, omule? More thoughts, human?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[I agree: let's work on our social life.](#act4_alone_skills)
+[Sunt de acord, hai să lucrăm la viața noastră socială. I agree: let's work on our social life.](#act4_alone_skills)
 
-[I think people like us. Let's find out?](#act4_alone_experiment)
+[Cred că oamenii ne plac, hai să aflăm! I think people like us. Let's find out?](#act4_alone_experiment)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "social belonging";`
+[Îți mulțumesc. Thank you.](#act4_thanks) `_.thanks_for = "social belonging";`
 
 # act4_alone_skills
 
@@ -887,7 +887,7 @@ bb({ eyes:"normal" });
 hong({ body:"chin" });
 ```
 
-h: We could practice skills like asking questions, listening and empathizing, being open and vulnerable, etc?
+h: Am putea să devenim mai buni la pus întrebări, We could practice skills like asking questions, listening and empathizing, being open and vulnerable, etc?
 
 `hong({ eyes:"normal_l" });`
 
@@ -1166,15 +1166,15 @@ b: And don't tell me we're *not* messed up. We almost jumped off a *roof*.
 `bb({ body:"normal", eyes:"sad" })`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Nu știu, gata cu alegerea *mea* pentru următoarea replică. Ce ai *tu* de spus, omule? I dunno, enough of *me* choosing what to say next. What do *you* say, human?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: Din nou, înapoi la tine, omule. Ce crezi? Again, back to you, human. What do you think?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: Alte păreri, omule? More thoughts, human?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
@@ -1553,28 +1553,28 @@ h: ...
 
 `bb({eyes:"annoyed_d"})`
 
-b: This isn't some *game*, you know.
+b: Ăsta nu e doar un *joc*, să știi.
 
 `bb({eyes:"angry_d", body:"one_up"})`
 
-b: Building a healthy relationship with your emotions isn't as simple as clicking buttons on a screen.
+b: Să construiești o relație sănătoasă cu emoțiile tale nu este așa de simplu precum apăsarea unor butoane de pe ecran. 
 
 `bb({eyes:"sad", body:"normal"})`
 
-b: *Can* we really get along?
+b: Chiar *putem* să ne înțelegem?
 
-b: *Can* we work together, as a team?
+b: Chiar *putem* lucra împreună, ca o echipă?
 
 `hong({eyes:"sad", body:"one_up"})`
 
-h: Well,
+h: Ei bine,
 
 ```
 hong({eyes:"surprise_l"});
 bb({eyes:"normal"});
 ```
 
-a: E-excuse me...
+a: S-scuză-mă... 
 
 ```
 Game.clearText();
@@ -1592,7 +1592,7 @@ music('campus', {volume:0.5, fade:1});
 
 `publish("act4", ["alshire", 0]);`
 
-a: W-wo-would you mind if I sat with you for lunch?
+a: A-a-Aș putea/A-a-ar fi în regulă să stau cu tine la prânz? W-wo-would you mind if I sat with you for lunch?
 
 `publish("act4", ["alshire", 1]);`
 
@@ -1601,7 +1601,7 @@ s: *This* is your crush? Why are they sitting alone like a psycho serial killer?
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: Asking your crush if you can sit with them? Do you know how *needy* we sound?!
+s: Să o întrebi pe persoana pe care o placi dacă putem sta cu ea? Știi cât de prăpădiți/necăjiți părem? Asking your crush if you can sit with them? Do you know how *needy* we sound?!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
@@ -1610,13 +1610,13 @@ s: *This* is your crush? We interrupted their peace and quiet! We're such a burd
 
 `publish("act4", ["alshire", 2]);`
 
-a: I- I mean- it's, it's okay if not, I just...
+a: A-adică e, e în regulă dacă nu, doar...I- I mean- it's, it's okay if not, I just...
 
 `publish("act4", ["alshire", 3]);`
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h2"`
 
-[Wait, didn't I see you at the party?](#act4d_recognition) `publish("act4", ["hong_to_alshire",1])`
+[Stai, nu cumva te-am văzut la petrecere?](#act4d_recognition) `publish("act4", ["hong_to_alshire",1])`
 
 [Yeah, of course! Come here.](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
 
@@ -1626,12 +1626,12 @@ a: I- I mean- it's, it's okay if not, I just...
 
 `publish("act4", ["hong_to_alshire",2]);`
 
-h2: Yeah you were on the couch! At the first party I went to...
+h2: Da, erai pe canapea! La prima petrecere la care am fost...
 
 `publish("act4", ["hong_to_alshire",10]);`
 
 {{if _.a2_ending=="fight"}}
-h2: Where I had that panic attack and punched the host.
+h2: Unde am avut atacul ăla de panică și i-am dat un pumn gazdei.
 {{/if}}
 
 {{if _.a2_ending=="flight"}}
@@ -1643,18 +1643,18 @@ publish("act4", ["hong_to_alshire", 0]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Hang on human, we may be making them uncomfortable.
+b: Stai puțin, omule, poate o facem să se simtă inconfortabilă. Hang on human, we may be making them uncomfortable.
 
 ```
 publish("act4", ["hong_to_alshire", 3]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 2 : 0]);
 ```
 
-h2: Ah, I don't mean to put you on the spot!
+h2: Aaa, nu vreau să te pun într-o situație jenantă! Ah, I don't mean to put you on the spot!
 
 `publish("act4", ["hong_to_alshire",4]);`
 
-h2: Just remembering a friendly face, is all.
+h2: Doar mi-am amintit de cineva cunoscut, atât.  Just remembering a friendly face, is all.
 
 ```
 publish("act4", ["hong_to_alshire",5]);
@@ -1666,7 +1666,7 @@ s: AHHHHH I KNEW IT! THEY'RE A DANGEROUS PANIC-DRIVEN PSYCHO!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: AAHHH THE FIRST IMPRESSION WE MADE WAS "WITNESSED MY TRAUMA"! THAT MEANS THEY HATE US!
+s: AAAAA PRIMA IMPRESIE PE CARE AM FĂCUT-O A FOST „MARTORII TRAUMEI MELE”! ÎNSEAMNĂ CĂ NE URĂȘTE!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
@@ -1787,18 +1787,18 @@ Game.WORDS_HEIGHT_BOTTOM = -1; /* reset */
 
 `publish("act4-jumpcut-hong");`
 
-h: Huh. That was weird. I wonder what was going on in their head.
+h: Hm. A fost ciudat. Mă întreb ce se întâmpla în mintea sa.
 
 `publish("act4", ["hong_closer", 2]);`
 
-h: Anyway, you were saying?
+h: Mă rog, ce ziceai?
 
 ```
 publish("act4", ["hong_closer", 1]);
 publish("act4", ["bb_closer", 6]);
 ```
 
-b: Uh, I forget? Something about teams and work?
+b: Uh, am uitat? Ceva legat de echipe și muncă?
 
 ```
 publish("act4", ["bb_closer", 0]);
@@ -1812,55 +1812,55 @@ publish("act4", ["hong_closer", 1]);
 publish("act4", ["bb_closer", 4]);
 ```
 
-b: They say you should "make peace" with your emotions, as if your emotions are *war criminals*.
+b: Se spune că trebuie „să faci pace” cu emoțiile tale, de parcă emoțiile ar fi *criminale de război*.
 
 `publish("act4", ["bb_closer", 7]);`
 
-b: But I want us to make *more* than mere peace! I want us to be *allies!*
+b: Dar vreau să fie între noi *mai mult* decât pace! Aș vrea să fim *aliați!* But I want us to make *more* than mere peace! I want us to be *allies!*
 
 `publish("act4", ["bb_closer", 3]);`
 
-b: I want to be a good guard-dog. Just like how hunger & thirst are alarms for your physical needs,
+b: Aș vrea să fiu un câine de pază bun. Precum foamea și setea sunt alarme pentru neoile tale fizice... I want to be a good guard-dog. Just like how hunger & thirst are alarms for your physical needs,
 
 `publish("act4", ["bb_closer", 8]);`
 
-b: I want to be the alarm for your *psychological* needs – your needs for safety, belonging, goodness.
+b: Vreau să fiu alarma pentru nevoile tale *psihologice* - nevoile tale de siguranță, apartenență, bunătate.
 
 `publish("act4", ["bb_closer", 1]);`
 
-b: But... I suck at my job, so I need you to train me.
+b: Dar... sunt nașpa la asta, deci am nevoie de tine pentru a mă dresa.
 
 `publish("act4", ["bb_closer", 4]);`
 
-b: I'm not "always valid," nor "always irrational." I'm just... trying my best. So, please,
+b: Nu „am mereu dreptate”, nici nu stunt „irațional” mereu. Încerc doar... să dau tot ce-i mai bun din mine. Deci, te rog...
 
 `publish("act4", ["bb_closer", 30]);`
 
-b: Help me help you!
+b: Ajută-mă să te ajut!
 
 `publish("act4", ["bb_closer", 6]);`
 
-b: Though, teaching an old dog new tricks *will* take a while. Maybe *years.*
+b: Deși, să înveți un câine bătrân trucuri noi *va lua* ceva timp. Poate chiar *ani*.
 
 `publish("act4", ["bb_closer", 3]);`
 
-b: And sometimes I'll relapse, I'll slip into my old habits.
+b: Și câteodată voi recidiva, voi aluneca spre vechiile mele obiceiuri.
 
 `publish("act4", ["bb_closer", 2]);`
 
-b: I'll bark at shadows. I'll scare you with words. I might even show you some intrusive images of... things.
+b: Voi lătra la umbre. Te voi speria cu cuvinte. Poate chiar am să-ți arăt niște imagini intruzive cu... chestii.
 
 `publish("act4", ["bb_closer", 9]);`
 
-b: I'm sorry! I'm a battered shelter dog! Battered dogs poop on your bed sometimes!
+b: Îmi pare rău! Sunt un câine de adăpost schingiuit! Câinii schingiuiți mai fac caca în patul tău câteodată!
 
 `publish("act4", ["bb_closer", 4]);`
 
-b: But if you're patient with me... and just stay and sit with me...
+b: Dar dacă ai răbdare cu mine... și vei sta cu mine... But if you're patient with me... and just stay and sit with me...
 
 `publish("act4", ["bb_closer", 8]);`
 
-b: Maybe you can tame this wolf.
+b: Poate poți îmblânzi acest lup.
 
 `publish("act4", ["bb_closer", 0]);`
 
@@ -1870,11 +1870,11 @@ b: Maybe you can tame this wolf.
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[Good dog.](#act4f-pat-bb) `Game.OVERRIDE_CHOICE_SPEAKER = "h"; publish("act4", ["hong_closer", 2]);`
+[Bun câine.](#act4f-pat-bb) `Game.OVERRIDE_CHOICE_SPEAKER = "h"; publish("act4", ["hong_closer", 2]);`
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "b"`
 
-[Good human.](#act4f-pat-hong) `Game.OVERRIDE_CHOICE_SPEAKER = "b"; publish("act4", ["bb_closer", 8]);`
+[Bun om.](#act4f-pat-hong) `Game.OVERRIDE_CHOICE_SPEAKER = "b"; publish("act4", ["bb_closer", 8]);`
 
 # act4f-pat-hong
 
@@ -1971,15 +1971,15 @@ publish("act4", ["hong_closer", 5]);
 ```
 
 {{if _.fifteencigs}}
-b: AAAAA YOU'RE STILL EATING ALONE FIFTEEN CIGARETTES AAAAA
+b: AAAAA ÎNCĂ MĂNÂNCI SINGUR CINCISPREZECE ȚIGĂRI AAAAA
 {{/if}}
 
 {{if _.parasite}}
-b: AAAAA YOU'RE STILL NOT PRODUCTIVE WHILE EATING WE'RE SOCIETY-PARASITES AAAAA
+b: AAAAA ÎNCĂ NU EȘTI PRODUCTIV ÎN TIMP CE MĂNÂNCI SUNTEM NIȘTE PARAZIȚI SOCIALI AAAAA
 {{/if}}
 
 {{if _.whitebread}}
-b: AAAAA YOU'RE EATING MORE WHITE BREAD AAAAA
+b: AAAAA MĂNÂNCI MAI MULTĂ PÂINE ALBĂ AAAAA
 {{/if}}
 
 ```
@@ -1992,6 +1992,6 @@ Game.FORCE_TEXT_DURATION = 90;
 Game.FORCE_NO_VOICE = true;
 ```
 
-b: YAP YAP YAP YAP YAP
+b: HAM HAM HAM HAM HAM
 
 (#credits)
