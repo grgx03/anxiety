@@ -1601,7 +1601,7 @@ s: *This* is your crush? Why are they sitting alone like a psycho serial killer?
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: Să o întrebi pe persoana pe care o placi dacă putem sta cu ea? Știi cât de prăpădiți/necăjiți părem? Asking your crush if you can sit with them? Do you know how *needy* we sound?!
+s: Să o întrebi pe persoana pe care o placi dacă putem sta cu ea? Știi cât de *disperați* părem? Asking your crush if you can sit with them? Do you know how *needy* we sound?!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
