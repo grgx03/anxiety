@@ -887,26 +887,26 @@ bb({ eyes:"normal" });
 hong({ body:"chin" });
 ```
 
-h: Am putea să devenim mai buni la pus întrebări, We could practice skills like asking questions, listening and empathizing, being open and vulnerable, etc?
+h: Am putea să devenim mai buni pe plan social: la pus întrebări, la ascultat și empatizat, la a fi deschiși și vulnerabili, etc? We could practice skills like asking questions, listening and empathizing, being open and vulnerable, etc?
 
 `hong({ eyes:"normal_l" });`
 
-h: Or make better social habits, like scheduling time with friends or regularly going to meetups?
+h: Sau să ne facem obiceiuri sociale mai bune, cum ar fi să ieșim cu prietenii sau să mergem la întruniri? Or make better social habits, like scheduling time with friends or regularly going to meetups?
 
 `hong({ body:"one_up" });`
 
-h: Could also learn to get more comfortable with rejection.
+h: De asemenea, putem deveni mai confortabili cu refuzurile. Could also learn to get more comfortable with rejection.
 
 `hong({ eyes:"normal" });`
 
-h: Or learn to know when people *aren't* rejecting us, they're just tired or have Resting ^Bitch^ Face.
+h: Sau să învățăm când oamenii *nu* ne resping, sunt doar obosiți sau așa e fața lor. Or learn to know when people *aren't* rejecting us, they're just tired or have Resting ^Bitch^ Face.
 
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed_r" });
 ```
 
-b: That's a lot of options. But, about "learning social skills"...
+b: Sunt multe opțiuni. Dar, legat de „îmbunățirea pe plan social”... That's a lot of options. But, about "learning social skills"...
 
 [Isn't that *manipulative?*](#act4_alone_skills_manipulative)
 
@@ -918,29 +918,29 @@ b: That's a lot of options. But, about "learning social skills"...
 
 `bb({ eyes:"suspect" });`
 
-b: Aren't serial killers who can read their victims' emotions great at "empathy"?
+b: Nu sunt ucigașii în serie care pot citi emoțiile victimelor lor bune la „empatie”? Aren't serial killers who can read their victims' emotions great at "empathy"?
 
 `bb({ eyes:"annoyed" });`
 
-b: Didn't Charles Manson win friends and influence people?
+b: Nu-i așa ca Charles Manson a câștigat prieteni și a înfluențat oamenii? Didn't Charles Manson win friends and influence people?
 
 `hong({ eyes:"annoyed", body:"chin" });`
 
-h: No, you're right.
+h: Mda, ai dreptate. No, you're right.
 
-h: "Social skills" mean nothing if we don't genuinely care *for* people.
+h: „Partea socială” nu semnifică nimic dacă nu *ne pasă* cu adevărat de oameni. "Social skills" mean nothing if we don't genuinely care *for* people.
 
 `hong({ body:"normal" });`
 
-h: Basically, just don't be a ^dick^.
+h: Adică, doar nu fii un ^bulangiu^. Basically, just don't be a ^dick^.
 
 `bb({ eyes:"annoyed", mouth:"smile" });`
 
-b: That's a motivational poster caption right there.
+b: Ăsta e un bun citat motivațional. That's a motivational poster caption right there.
 
 `hong({ body:"shrug", mouth:"narrow" });`
 
-h: “Don't Be A ^Dick^™”
+h: „Nu fii un ^bulangiu^™” “Don't Be A ^Dick^™”
 
 (#act4_something_else)
 
@@ -948,29 +948,29 @@ h: “Don't Be A ^Dick^™”
 
 `bb({ eyes:"angry" })`
 
-b: We'll become a Welcome doormat, saying Please and Thank You as people wipe their feet on us!
+b: Vom deveni un preș de „Bine ai venit!” și vom spune „Te rog” și „Mulțumesc”, în timp ce oamenii își vor șterge picioarele de noi! We'll become a Welcome doormat, saying Please and Thank You as people wipe their feet on us!
 
 `bb({ mouth:"scream", eyes:"scream" })`
 
-b: We'll kiss so much butt, it'll look like we're wearing brown lipstick!
+b: Vom pupa atât de tare în fund, vom părea că purtăm un ruj maro! We'll kiss so much butt, it'll look like we're wearing brown lipstick!
 
 ```
 bb({ mouth:"normal", eyes:"normal" });
 hong( body:"chin" });
 ```
 
-h: Nah, you're right. "Social skills" can't be just about pleasing others, it's also got to be about setting *boundaries.*
+h: Neh, ai dreptate. „Partea socială” nu este doar pentru a face altora pe plac, trebuie să impunem și niște *limite*. Nah, you're right. "Social skills" can't be just about pleasing others, it's also got to be about setting *boundaries.*
 
 `hong( body:"one_up" });`
 
-h: We can't invite others into our home, if we have no walls to hold up our home.
+h: Nu-i putem invita pe alții în casa noastră, dacă nu avem pereți să o susțină. We can't invite others into our home, if we have no walls to hold up our home.
 
 ```
 hong( eyes:"angry", mouth:"narrow" });
 bb( eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Also... re: that lipstick mental image... *ew??*
+h: Totuși... re: acea imagine mentală cu rujul... *iacs??* Also... re: that lipstick mental image... *ew??*
 
 (#act4_something_else)
 
@@ -978,26 +978,26 @@ h: Also... re: that lipstick mental image... *ew??*
 
 `bb({ eyes:"annoyed" });`
 
-h: We might fail. Actually, we *will* fail.
+h: S-ar putea să eșuăm... De fapt, *vom* eșua. We might fail. Actually, we *will* fail.
 
 ```
 bb({ eyes:"normal" });
 hong({ eyes:"surprise", body:"shrug" });
 ```
 
-h: And that's fine! Failing is how anyone learns anything new at first!
+h: Și e în regulă! Din eșecuri se învață lucruri noi, în primul rând! And that's fine! Failing is how anyone learns anything new at first!
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: So let's fail forward together, yeah?
+h: Deci hai să eșuăm înainte împreună, bine? So let's fail forward together, yeah?
 
 `bb({ eyes:"normal_r" });`
 
-b: Sure, I guess... worst-case scenario, we can just skip town and get a new identity.
+b: Ok, presupun... în cel mai rău caz, putem să fugim din orășel și să ne facem o nouă identitate. Sure, I guess... worst-case scenario, we can just skip town and get a new identity.
 
 `bb({ eyes:"normal" });`
 
-h: Yeah I think that only costs two bitcoins these days.
+h: Mda cred că asta costă, totuși, două bitcoin-uri în zilele astea. Yeah I think that only costs two bitcoins these days.
 
 (#act4_something_else)
 
@@ -1008,33 +1008,33 @@ hong({ body:"one_up" });
 bb({ eyes:"normal" });
 ```
 
-h: We could try some experiments!
+h: Am putea încerca noi experimente! We could try some experiments!
 
 `hong({ body:"chin" });`
 
-h: We could ping a friend to hang out, reconnect with an old pal, or even just chat with a barista.
+h: Am putea scrie unui prieten să ne întâlnim, să reluăm legătura cu un vechi prieten sau chiar doar să vorbim cu un barman. We could ping a friend to hang out, reconnect with an old pal, or even just chat with a barista.
 
 `hong({ body:"normal" });`
 
-h: I think we may find we're more likeable than we suspect.
+h: Cred că ne vom da seama că suntem mai plăcuți decât ne așteptam/suspectam. I think we may find we're more likeable than we suspect.
 
 `bb({ eyes:"annoyed" });`
 
-[What if these are small, cheap "wins"?](#act4_alone_experiment_cheap)
+[Dacă astea sunt „câștiguri” mici și nesemnificative? What if these are small, cheap "wins"?](#act4_alone_experiment_cheap)
 
-[What if this is a burden to others?](#act4_alone_experiment_burden)
+[Daca asta e o povară pentru alții? What if this is a burden to others?](#act4_alone_experiment_burden)
 
-[But small talk isn't the *real* us!](#act4_alone_experiment_real_us)
+[Dar discuțiile banale nu ne reprezintă pe *noi* ca persoane! But small talk isn't the *real* us!](#act4_alone_experiment_real_us)
 
 # act4_alone_experiment_real_us
 
 `bb({ eyes:"sad" });`
 
-b: If we put on a shallow smile, we'll never really connect with anyone,
+b: Dacă zâmbim superficial, nu vom avea niciodată legături sincere cu cineva, If we put on a shallow smile, we'll never really connect with anyone,
 
 `bb({ eyes:"super_sad" });`
 
-b: *But* if we open up, other people will see all our messed-up insides!
+b: *Dar* dacă ne deschidem, alții vor vedea mizeria dinăuntrul nostru! *But* if we open up, other people will see all our messed-up insides!
 
 `hong({body:"chin", mouth:"narrow", MOUTH_LOCK:true})`
 
@@ -1045,64 +1045,64 @@ hong({body:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: Roll over.
+h: Rostogolește-te. Roll over.
 
-b: What.
+b: Ce. What.
 
 `hong({body:"hands_1"})`
 
-h: When dogs want to show love and trust, they make themselves vulnerable by exposing their belly.
+h: Când câinii vor să arate iubire și încredere, se fac vulnerabili prin a-și arăta burta. When dogs want to show love and trust, they make themselves vulnerable by exposing their belly.
 
 `hong({body:"one_up"})`
 
-h: Maybe we're not *yet* secure enough to be too vulnerable, but with enough training,
+h: Poate că nu ne simțim *încă* suficient de siguri să fim vulnerabili, dar cu suficient dresaj, Maybe we're not *yet* secure enough to be too vulnerable, but with enough training,
 
 `hong({body:"normal", eyes:"surprise"})`
 
-h: One day we can show people the real us – all messed-up, all human.
+h: Într-o zi le putem arăta oamenilor cine suntem cu adevărat: mizerabili/o dezordine, dar umani/umană. One day we can show people the real us – all messed-up, all human.
 
 ```
 hong({eyes:"normal"});
 bb({ eyes:"super_sad", mouth:"smile", body:"chest" });
 ```
 
-b: I'll roll over if you give me a treat.
+b: Mă voi rostogoli dacă îmi vei da o recompensă.
 
 `bb({ eyes:"normal", mouth:"normal" });`
 
-h: No.
+h: Nu.
 
 (#act4_something_else)
 
 
 # act4_alone_experiment_cheap
 
-b: Saying "hi" to the barista isn't exactly gold-medal performance in the Social Butterfly Olympics.
+b: A saluta barmanul nu e o perfomanță de o medalie de aur la Olimpiada de Sociabili. Saying "hi" to the barista isn't exactly gold-medal performance in the Social Butterfly Olympics.
 
 ```
 hong({ body:"point", eyes:"surprise" });
 bb({ eyes:"normal" });
 ```
 
-h: It is for *us!*
+h: Pentru *noi* este! It is for *us!*
 
 `hong({ body:"one_up", eyes:"annoyed" });`
 
-h: In the social arena, we're not even featherweight class, we're like... quark-weight.
+h: În arena socială, nu suntem nici măcar la nivelul unei pene, suntem precum... o moleculă. In the social arena, we're not even featherweight class, we're like... quark-weight.
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: If we have to start with small, cheap wins, so be it. Gotta climb the 1st step before the 1000th step.
+h: Dacă trebuie să începem cu câștiguri mici și nesmnificative, așa să fie. Trebuie să urcăm prima treaptă înainte de a ajunge la a miia. If we have to start with small, cheap wins, so be it. Gotta climb the 1st step before the 1000th step.
 
-b: Yeah! Maybe after saying "Hi", we can advance to saying...
+b: Da! Poate după ce salutăm, putem avansa la a întreba... Yeah! Maybe after saying "Hi", we can advance to saying...
 
 `bb({ body:"two_up", mouth:"smile", eyes:"smile_u" });`
 
-b: *"How are you?"*
+b: *„Ce mai faci?”*
 
 `hong({ body:"shrug", mouth:"smile", eyes:"surprise_l" });`
 
-h: *"Not much!"*
+h: *„Nimic interesant!”*
 
 (#act4_something_else)
 
