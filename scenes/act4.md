@@ -1337,11 +1337,11 @@ hong({ body:"normal" });
 bb({ eyes:"annoyed", mouth:"narrow" });
 ```
 
-b: Well *that* fourth wall didn't last long.
+b: Ei bine, *acea* a patra parte n-a durat prea mult. Well *that* fourth wall didn't last long.
 
 `hong({ body:"point" });`
 
-h: Some things are more important than narrative convention. Such as mental health.
+h: Câteva lucruri sunt mai importante decât o convenție narativă. Cum ar fi sănătatea mentală. Some things are more important than narrative convention. Such as mental health.
 
 (#act4_something_else)
 
