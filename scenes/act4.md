@@ -908,11 +908,11 @@ bb({ eyes:"annoyed_r" });
 
 b: Sunt multe opțiuni. Dar, legat de „îmbunățirea pe plan social”... That's a lot of options. But, about "learning social skills"...
 
-[Isn't that *manipulative?*](#act4_alone_skills_manipulative)
+[Nu-i asta *manipulativ?*](#act4_alone_skills_manipulative)
 
-[Won't that make us *easier to manipulate?*](#act4_alone_skills_manipulated)
+[Nu ne va face asta să fim *mai ușor de manipulat?*](#act4_alone_skills_manipulated)
 
-[What if we still fail?](#act4_alone_skills_fail)
+[Dacă încă vom eșua?](#act4_alone_skills_fail)
 
 # act4_alone_skills_manipulative
 
