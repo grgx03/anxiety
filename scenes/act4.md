@@ -1110,29 +1110,29 @@ h: *„Nimic interesant!”*
 
 `bb({ eyes:"suspect_r" })`
 
-b: Maybe the barista just wants to make some dang coffee, not be an *experiment* to see if our social skills suck.
+b: Poate barmanul doar vrea să facă o -amărâtă de- cafea, nu să fie un *experiment* care să vadă că suntem nașpa pe partea socială/*cobai* pe care să ne testăm abilitățile de comunicare. Maybe the barista just wants to make some dang coffee, not be an *experiment* to see if our social skills suck.
 
 `bb({ eyes:"annoyed" })`
 
-h: Well, if it turns out we *are* being a burden...
+h: Păi, și dacă până la urmă *suntem* o povară... Well, if it turns out we *are* being a burden...
 
 ```
 hong({ eyes:"surprise" });
 bb({ eyes:"normal" });
 ```
 
-h: That's good to know, too!
+h: E și asta bine de știut! That's good to know, too!
 
 `hong({ eyes:"normal" });`
 
-h: We can then learn how to pro-actively ask people what they're comfortable with, to know and respect others' boundaries.
+h: Putem apoi să învățăm cum să întrebăm lumea de nivelul lor de confort, pentru a ști și respecta limitele. We can then learn how to pro-actively ask people what they're comfortable with, to know and respect others' boundaries.
 
 ```
 hong({ eyes:"annoyed_l", mouth:"narrow" });
 bb({ eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Y'know, all that "inter-personal skills" ^crap^ we see in counselor brochures.
+h: Știi, tot ^rahatul^ ăsta cu „abilitățile inter-personale” pe care le vedem în broșurile consilierilor. Y'know, all that "inter-personal skills" ^crap^ we see in counselor brochures.
 
 (#act4_something_else)
 
@@ -1147,20 +1147,20 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"annoyed_r" })`
 
-b: I want to defend your moral needs, that drive to become a better person,
+b: Vreau să-ți apăr nevoile morale, acel impuls de a deveni o persoană mai bună, I want to defend your moral needs, that drive to become a better person,
 
 `bb({ eyes:"sad_d" })`
 
-b: But it just feels like deep down, we're so fundamentally... broken.
+b: Dar se simte de parcă, în adâncul nostru, suntem atât de... stricați. But it just feels like deep down, we're so fundamentally... broken.
 
 `bb({ body:"two_up", eyes:"angry" })`
 
 {{if _.INJURED}}
-b: And don't tell me we're *not* messed up. We jumped off a *roof*.
+b: Și să nu-mi spui că *nu* suntem stricați. Am sărit de pe un *acoperiș*. And don't tell me we're *not* messed up. We jumped off a *roof*.
 {{/if}}
 
 {{if !_.INJURED}}
-b: And don't tell me we're *not* messed up. We almost jumped off a *roof*.
+b: Și să nu-mi spui că *nu* suntem stricați. Aproape că am sărit de pe un *acoperiș*. And don't tell me we're *not* messed up. We almost jumped off a *roof*.
 {{/if}}
 
 `bb({ body:"normal", eyes:"sad" })`
@@ -1179,11 +1179,11 @@ b: Alte păreri, omule? More thoughts, human?
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[So we're broken. Let's fix us.](#act4_bad_fix)
+[Deci, suntem stricați. Hai să ne reparăm. So we're broken. Let's fix us.](#act4_bad_fix)
 
-[So we're broken. Let's accept it.](#act4_bad_accept)
+[Deci, suntem stricați. Hai să acceptăm asta. So we're broken. Let's accept it.](#act4_bad_accept)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "moral well-being";`
+[Îți mulțumesc.](#act4_thanks) `_.thanks_for = "moral well-being";`
 
 # act4_bad_fix
 
@@ -1192,48 +1192,48 @@ bb({eyes:"normal"});
 hong({body:"chin"});
 ```
 
-h: We could slowly build better habits, get our life more in line with what we value,
+h: Am putea construi încet-încet niște obiceiuri mai bune, să ne aliniem viața cu valorile noastre/să ne trăim viața conform valorilor noastre, We could slowly build better habits, get our life more in line with what we value,
 
 `hong({body:"one_up"});`
 
-h: And if needed, we could get professional help – a therapist or counsellor.
+h: Iar dacă va fi nevoie, putem primi ajutor de la profesioniști: un terapeut sau un consilier. And if needed, we could get professional help – a therapist or counsellor.
 
 `hong({body:"normal"});`
 
-h: There's ways to fix us.
+h: Sunt căi pentru a ne repara. There's ways to fix us.
 
-[What if we can't fix it all?](#act4_bad_fix_cant)
+[Dacă nu putem repara tot? What if we can't fix it all?](#act4_bad_fix_cant)
 
-[What if we fix *too* much?](#act4_bad_fix_too_much)
+[Dacă reparăm *prea* mult? What if we fix *too* much?](#act4_bad_fix_too_much)
 
-[We can't afford professional help.](#act4_bad_fix_afford)
+[Nu ne putem permite ajutor profesional. We can't afford professional help.](#act4_bad_fix_afford)
 
 # act4_bad_fix_cant
 
 `hong({eyes:"annoyed"});`
 
-h: Nah, I guess you're right.
+h: Neh, presupun că ai dreptate. Nah, I guess you're right.
 
-h: We can't fix it all.
+h: Nu putem repara tot. We can't fix it all.
 
 `bb({mouth:"scream", eyes:"scream_sad"});`
 
-b: Ahhh I knew it we'll always be broken!
+b: AAAAAA știam eu că vom fi mereu stricați! Ahhh I knew it we'll always be broken!
 
 `hong({eyes:"surprise"});`
 
-h: But we can at least be *less* broken.
+h: Dar măcar putem fi *mai puțin* stricați. But we can at least be *less* broken.
 
 ```
 bb({mouth:"normal", eyes:"annoyed"});
 hong({eyes:"sad", mouth:"smile"});
 ```
 
-h: Scars heal with time, but they never go away. And that's okay.
+h: Cicatricile se vindecă cu timpul, dar nu dispar niciodată. Și e în regulă. Scars heal with time, but they never go away. And that's okay.
 
 `bb({eyes:"annoyed_r"});`
 
-b: I guess. Besides,
+b: Presupun. Pe lângă asta, I guess. Besides,
 
 ```
 Game.FORCE_TEXT_Y = 460;
@@ -1241,7 +1241,7 @@ Game.clearText();
 publish("act4-sexy", [true]);
 ```
 
-b: Scars are *sexy.*
+b: Cicatricile sunt *sexy.* Scars are *sexy.*
 
 ```
 Game.FORCE_TEXT_Y = -1;
@@ -1251,7 +1251,7 @@ bb({body:"chest", mouth:"smile_talk", MOUTH_LOCK:true, eyes:"sexy"}, 0);
 hong({eyes:"normal", mouth:"normal"}, 0);
 ```
 
-h: Please do not do that.
+h: Te rog, nu face asta. Please do not do that.
 
 (#act4_something_else)
 
@@ -1259,35 +1259,35 @@ h: Please do not do that.
 
 `bb({ eyes:"angry_d" })`
 
-b: This feels sick to admit, but... some part of me *wants* to have this disorder.
+b: Se simte nebunesc să recunosc, dar parcă... o parte din mine *ar vrea* să aibă această boală. This feels sick to admit, but... some part of me *wants* to have this disorder.
 
 `bb({ eyes:"angry" })`
 
-b: I mean, without it, won't we be *boring?*
+b: Adică, fără ea, n-am fi cumva *plictisitori?* I mean, without it, won't we be *boring?*
 
 `bb({ eyes:"sad_r", body:"one_up" })`
 
-b: Without the disorder, won't our art become stale and bland?
+b: Fără boală, n-ar deveni arta noastră anostă și insipidă? Without the disorder, won't our art become stale and bland?
 
 `bb({ eyes:"sad_u", body:"two_up" })`
 
-b: Without the disorder, won't we be unable to connect with our friends who have the disorder?
+b: Fără boală, ne-am mai putea apropia de prietenii noștri care au boala? Without the disorder, won't we be unable to connect with our friends who have the disorder?
 
 `bb({ eyes:"sad", body:"chest" })`
 
-b: If we're ever content with life, won't we stop driving ourselves to do great things?
+b: Dacă vom fi mulțumiți/fericiți cu viața noastră, nu cumva ne vom opri motivația de a face chestii grozave? If we're ever content with life, won't we stop driving ourselves to do great things?
 
 `hong({ MOUTH_LOCK:true })`
 
 h: ...
 
-h: If we even fear... "running out of fears"...
+h: Chiar dacă ne e teamă... „să rămânem fără temeri”... If we even fear... "running out of fears"...
 
-h: I don't think we're gonna run out of fears.
+h: Nu cred că vom rămâne vreodată fără temeri. I don't think we're gonna run out of fears.
 
 `bb({ eyes:"smile_u", body:"normal", mouth:"smile" })`
 
-b: Oh, yeah! Whew! What a relief!
+b: A, da! Ce ușurare! Oh, yeah! Whew! What a relief!
 
 (#act4_something_else)
 
@@ -1295,42 +1295,42 @@ b: Oh, yeah! Whew! What a relief!
 
 `bb({ body:"one_up", eyes:"sexy", mouth:"normal" })`
 
-b: "Doc, I'm anxious that I'm paying $100/hr just to hear you ask *how does that make you feel?*"
+b: „Doctore, sunt anxios că plătesc -sau 300-500 RON-100$/oră doar să te aud spunând *cum te face să te simți?*” "Doc, I'm anxious that I'm paying $100/hr just to hear you ask *how does that make you feel?*"
 
 `bb({ body:"paw", eyes:"closed", mouth:"narrow" })`
 
-b: "Mm-hmm. And how does that make you feel?"
+b: „Aha. Și asta cum te face să te simți?” "Mm-hmm. And how does that make you feel?"
 
 ```
 bb({ body:"normal", eyes:"normal", mouth:"normal" });
 hong({ eyes:"sad" });
 ```
 
-h: Nah, that's a totally reasonable worry.
+h: Neh, ăsta e un motiv rezonabil de îngrijorare. Nah, that's a totally reasonable worry.
 
 `hong({ eyes:"annoyed", mouth:"sad" });`
 
-h: And it genuinely sucks that mental healthcare isn't affordable for lots of folks.
+h: Și sincer, e nașpa că sistemul de sănătate mentală nu este accesibil pentru mulți oameni. And it genuinely sucks that mental healthcare isn't affordable for lots of folks.
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Still, there are some cheap or free options:
+h: Totuși, există niște alternative ieftine sau gratis: Still, there are some cheap or free options:
 
 `hong({ body:"chin" })`
 
-h: Support groups, online therapy, student/non-profit health centers...
+h: Grupuri de susținere, terapie online, centre de sănătate studențești/non-profit... Support groups, online therapy, student/non-profit health centers...
 
 `hong({ body:"hands_1" })`
 
-h: Building habits like meditation, sleeping well, chatting regularly with friends, learning new things...
+h: Construirea unor obiceiuri precum meditația, dormitul bine, discuții periodice cu prietenii, învățarea unor lucruri noi... Building habits like meditation, sleeping well, chatting regularly with friends, learning new things...
 
 `hong({ body:"hands_2" })`
 
-h: Going to a library to borrow workbooks for evidence-based psychotherapies...
+h: Mersul la o bibliotecă pentru a împrumuta manuale de psihoterapie bazată pe dovezi... Going to a library to borrow workbooks for evidence-based psychotherapies...
 
 `hong({ body:"one_up" })`
 
-h: There's a full list of resources at the end of this game!
+h: Este o listă completă de resurse la sfârșitul acestui joc! There's a full list of resources at the end of this game!
 
 ```
 hong({ body:"normal" });
@@ -1520,19 +1520,19 @@ h: So, anything else on your heavy heart?
 
 # act4_something_else_2
 
-h: Okay, I think we've talked about all our fears now.
+h: Ok, cred că am vorbit despre toate temerile noastre acum.
 
-b: Yes, there are only three fears.
+b: Da, aici sunt doar trei frici/temeri.
 
-h: Yup, exactly three.
+h: Dap, fix trei.
 
-b: Convenient.
+b: Convenabil.
 
 (#act4c)
 
 # act4c_prelude
 
-h: Good chat, team.
+h: Bună discuție, echipă.
 
 (#act4c)
 
