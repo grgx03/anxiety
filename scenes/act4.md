@@ -1007,33 +1007,33 @@ hong({ body:"one_up" });
 bb({ eyes:"normal" });
 ```
 
-h: Am putea încerca noi experimente! We could try some experiments!
+h: Am putea încerca niște experimente!
 
 `hong({ body:"chin" });`
 
-h: Am putea scrie unui prieten să ne întâlnim, să reluăm legătura cu un vechi prieten sau chiar doar să vorbim cu un barman. We could ping a friend to hang out, reconnect with an old pal, or even just chat with a barista.
+h: Am putea scrie unui prieten să ne întâlnim, să reluăm legătura cu un vechi prieten sau chiar doar să vorbim cu un barman.
 
 `hong({ body:"normal" });`
 
-h: Cred că ne vom da seama că suntem mai plăcuți decât ne așteptam/suspectam. I think we may find we're more likeable than we suspect.
+h: Cred că ne vom da seama că suntem mai plăcuți decât ne așteptam.
 
 `bb({ eyes:"annoyed" });`
 
-[Dacă astea sunt „câștiguri” mici și nesemnificative? What if these are small, cheap "wins"?](#act4_alone_experiment_cheap)
+[Dacă astea sunt „câștiguri” mici și nesemnificative?](#act4_alone_experiment_cheap)
 
-[Daca asta e o povară pentru alții? What if this is a burden to others?](#act4_alone_experiment_burden)
+[Daca asta e o povară pentru alții?](#act4_alone_experiment_burden)
 
-[Dar discuțiile banale nu ne reprezintă pe *noi* ca persoane! But small talk isn't the *real* us!](#act4_alone_experiment_real_us)
+[Dar discuțiile banale nu ne reprezintă pe *noi* ca persoane!](#act4_alone_experiment_real_us)
 
 # act4_alone_experiment_real_us
 
 `bb({ eyes:"sad" });`
 
-b: Dacă zâmbim superficial, nu vom avea niciodată legături sincere cu cineva, If we put on a shallow smile, we'll never really connect with anyone,
+b: Dacă zâmbim superficial, nu vom avea niciodată legături sincere cu cineva,
 
 `bb({ eyes:"super_sad" });`
 
-b: *Dar* dacă ne deschidem, alții vor vedea mizeria dinăuntrul nostru! *But* if we open up, other people will see all our messed-up insides!
+b: *dar* dacă ne deschidem, alții vor vedea mizeria dinăuntrul nostru!
 
 `hong({body:"chin", mouth:"narrow", MOUTH_LOCK:true})`
 
@@ -1044,21 +1044,21 @@ hong({body:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: Rostogolește-te. Roll over.
+h: Rostogolește-te.
 
-b: Ce. What.
+b: Ce.
 
 `hong({body:"hands_1"})`
 
-h: Când câinii vor să arate iubire și încredere, se fac vulnerabili prin a-și arăta burta. When dogs want to show love and trust, they make themselves vulnerable by exposing their belly.
+h: Când câinii vor să arate iubire și încredere, se fac vulnerabili prin a-și arăta burta.
 
 `hong({body:"one_up"})`
 
-h: Poate că nu ne simțim *încă* suficient de siguri să fim vulnerabili, dar cu suficient dresaj, Maybe we're not *yet* secure enough to be too vulnerable, but with enough training,
+h: Poate că nu ne simțim *încă* suficient de siguri să fim vulnerabili, dar cu suficient dresaj,
 
 `hong({body:"normal", eyes:"surprise"})`
 
-h: Într-o zi le putem arăta oamenilor cine suntem cu adevărat: mizerabili/o dezordine, dar umani/umană. One day we can show people the real us – all messed-up, all human.
+h: într-o zi le putem arăta oamenilor cine suntem cu adevărat: o dezordine, dar umană.
 
 ```
 hong({eyes:"normal"});
