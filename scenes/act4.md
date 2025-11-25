@@ -1076,24 +1076,24 @@ h: Nu.
 
 # act4_alone_experiment_cheap
 
-b: A saluta barmanul nu e o perfomanță de o medalie de aur la Olimpiada de Sociabili. Saying "hi" to the barista isn't exactly gold-medal performance in the Social Butterfly Olympics.
+b: A saluta barmanul nu e o perfomanță de o medalie de aur la Olimpiada de Socializare.
 
 ```
 hong({ body:"point", eyes:"surprise" });
 bb({ eyes:"normal" });
 ```
 
-h: Pentru *noi* este! It is for *us!*
+h: Pentru *noi* este!
 
 `hong({ body:"one_up", eyes:"annoyed" });`
 
-h: În arena socială, nu suntem nici măcar la nivelul unei pene, suntem precum... o moleculă. In the social arena, we're not even featherweight class, we're like... quark-weight.
+h: În arena socială, nu suntem nici măcar la nivelul unei pene, suntem precum... o moleculă.
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: Dacă trebuie să începem cu câștiguri mici și nesmnificative, așa să fie. Trebuie să urcăm prima treaptă înainte de a ajunge la a miia. If we have to start with small, cheap wins, so be it. Gotta climb the 1st step before the 1000th step.
+h: Dacă trebuie să începem cu câștiguri mici și nesmnificative, așa să fie. Trebuie să urcăm prima treaptă înainte de a ajunge la a o mia.
 
-b: Da! Poate după ce salutăm, putem avansa la a întreba... Yeah! Maybe after saying "Hi", we can advance to saying...
+b: Da! Poate după ce salutăm, putem avansa la a întreba... 
 
 `bb({ body:"two_up", mouth:"smile", eyes:"smile_u" });`
 
