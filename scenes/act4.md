@@ -1109,29 +1109,29 @@ h: *„Nimic interesant!”*
 
 `bb({ eyes:"suspect_r" })`
 
-b: Poate barmanul doar vrea să facă o -amărâtă de- cafea, nu să fie un *experiment* care să vadă că suntem nașpa pe partea socială/*cobai* pe care să ne testăm abilitățile de comunicare. Maybe the barista just wants to make some dang coffee, not be an *experiment* to see if our social skills suck.
+b: Poate barmanul doar vrea să facă o amărâtă de cafea, nu să fie un *experiment* care să vadă că suntem nașpa pe partea de abilități sociale.
 
 `bb({ eyes:"annoyed" })`
 
-h: Păi, și dacă până la urmă *suntem* o povară... Well, if it turns out we *are* being a burden...
+h: Păi, și dacă până la urmă *suntem* o povară...
 
 ```
 hong({ eyes:"surprise" });
 bb({ eyes:"normal" });
 ```
 
-h: E și asta bine de știut! That's good to know, too!
+h: E și asta bine de știut!
 
 `hong({ eyes:"normal" });`
 
-h: Putem apoi să învățăm cum să întrebăm lumea de nivelul lor de confort, pentru a ști și respecta limitele. We can then learn how to pro-actively ask people what they're comfortable with, to know and respect others' boundaries.
+h: Putem apoi să învățăm cum să întrebăm lumea de nivelul lor de confort, pentru a le ști și respecta limitele.
 
 ```
 hong({ eyes:"annoyed_l", mouth:"narrow" });
 bb({ eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Știi, tot ^rahatul^ ăsta cu „abilitățile inter-personale” pe care le vedem în broșurile consilierilor. Y'know, all that "inter-personal skills" ^crap^ we see in counselor brochures.
+h: Știi, tot ^rahatul^ ăsta cu „abilitățile inter-personale” pe care le vedem în broșurile consilierilor.
 
 (#act4_something_else)
 
@@ -1146,43 +1146,43 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"annoyed_r" })`
 
-b: Vreau să-ți apăr nevoile morale, acel impuls de a deveni o persoană mai bună, I want to defend your moral needs, that drive to become a better person,
+b: Vreau să-ți apăr nevoile morale, acel impuls de a deveni o persoană mai bună,
 
 `bb({ eyes:"sad_d" })`
 
-b: Dar se simte de parcă, în adâncul nostru, suntem atât de... stricați. But it just feels like deep down, we're so fundamentally... broken.
+b: dar se simte de parcă, în adâncul nostru, suntem atât de... stricați.
 
 `bb({ body:"two_up", eyes:"angry" })`
 
 {{if _.INJURED}}
-b: Și să nu-mi spui că *nu* suntem stricați. Am sărit de pe un *acoperiș*. And don't tell me we're *not* messed up. We jumped off a *roof*.
+b: Și să nu-mi spui că *nu* suntem stricați. Am sărit de pe un *acoperiș*.
 {{/if}}
 
 {{if !_.INJURED}}
-b: Și să nu-mi spui că *nu* suntem stricați. Aproape că am sărit de pe un *acoperiș*. And don't tell me we're *not* messed up. We almost jumped off a *roof*.
+b: Și să nu-mi spui că *nu* suntem stricați. Aproape că am sărit de pe un *acoperiș*.
 {{/if}}
 
 `bb({ body:"normal", eyes:"sad" })`
 
 {{if _.a4_fears_discussed==1}}
-b: Nu știu, gata cu alegerea *mea* pentru următoarea replică. Ce ai *tu* de spus, omule? I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Nu știu, gata cu alegerea *mea* pentru următoarea replică. Ce ai *tu* de spus, omule?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Din nou, înapoi la tine, omule. Ce crezi? Again, back to you, human. What do you think?
+b: Din nou, înapoi la tine, omule. Ce crezi?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: Alte păreri, omule? More thoughts, human?
+b: Alte păreri, omule?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[Deci, suntem stricați. Hai să ne reparăm. So we're broken. Let's fix us.](#act4_bad_fix)
+[Deci, suntem stricați. Hai să ne reparăm.](#act4_bad_fix)
 
-[Deci, suntem stricați. Hai să acceptăm asta. So we're broken. Let's accept it.](#act4_bad_accept)
+[Deci, suntem stricați. Hai să acceptăm asta.](#act4_bad_accept)
 
-[Îți mulțumesc.](#act4_thanks) `_.thanks_for = "moral well-being";`
+[Mulțumesc.](#act4_thanks) `_.thanks_for = "bunăstarea morală";`
 
 # act4_bad_fix
 
@@ -1191,37 +1191,37 @@ bb({eyes:"normal"});
 hong({body:"chin"});
 ```
 
-h: Am putea construi încet-încet niște obiceiuri mai bune, să ne aliniem viața cu valorile noastre/să ne trăim viața conform valorilor noastre, We could slowly build better habits, get our life more in line with what we value,
+h: Am putea construi încet-încet niște obiceiuri mai bune, să ne aliniem viața cu valorile noastre,
 
 `hong({body:"one_up"});`
 
-h: Iar dacă va fi nevoie, putem primi ajutor de la profesioniști: un terapeut sau un consilier. And if needed, we could get professional help – a therapist or counsellor.
+h: iar dacă va fi nevoie, putem primi ajutor de la profesioniști: un terapeut sau un consilier.
 
 `hong({body:"normal"});`
 
-h: Sunt căi pentru a ne repara. There's ways to fix us.
+h: Sunt căi pentru a ne repara.
 
-[Dacă nu putem repara tot? What if we can't fix it all?](#act4_bad_fix_cant)
+[Dacă nu putem repara tot?](#act4_bad_fix_cant)
 
-[Dacă reparăm *prea* mult? What if we fix *too* much?](#act4_bad_fix_too_much)
+[Dacă reparăm *prea* mult?](#act4_bad_fix_too_much)
 
-[Nu ne putem permite ajutor profesional. We can't afford professional help.](#act4_bad_fix_afford)
+[Nu ne putem permite ajutor profesional.](#act4_bad_fix_afford)
 
 # act4_bad_fix_cant
 
 `hong({eyes:"annoyed"});`
 
-h: Neh, presupun că ai dreptate. Nah, I guess you're right.
+h: Neh, presupun că ai dreptate.
 
-h: Nu putem repara tot. We can't fix it all.
+h: Nu putem repara tot.
 
 `bb({mouth:"scream", eyes:"scream_sad"});`
 
-b: AAAAAA știam eu că vom fi mereu stricați! Ahhh I knew it we'll always be broken!
+b: AAAAAA știam eu că vom fi mereu stricați!
 
 `hong({eyes:"surprise"});`
 
-h: Dar măcar putem fi *mai puțin* stricați. But we can at least be *less* broken.
+h: Dar măcar putem fi *mai puțin* stricați.
 
 ```
 bb({mouth:"normal", eyes:"annoyed"});
