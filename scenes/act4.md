@@ -1228,11 +1228,11 @@ bb({mouth:"normal", eyes:"annoyed"});
 hong({eyes:"sad", mouth:"smile"});
 ```
 
-h: Cicatricile se vindecă cu timpul, dar nu dispar niciodată. Și e în regulă. Scars heal with time, but they never go away. And that's okay.
+h: Cicatricile se vindecă cu timpul, dar nu dispar niciodată. Și e în regulă.
 
 `bb({eyes:"annoyed_r"});`
 
-b: Presupun. Pe lângă asta, I guess. Besides,
+b: Presupun. Pe lângă asta,
 
 ```
 Game.FORCE_TEXT_Y = 460;
@@ -1240,7 +1240,7 @@ Game.clearText();
 publish("act4-sexy", [true]);
 ```
 
-b: Cicatricile sunt *sexy.* Scars are *sexy.*
+b: Cicatricile sunt *sexy.* 
 
 ```
 Game.FORCE_TEXT_Y = -1;
@@ -1250,7 +1250,7 @@ bb({body:"chest", mouth:"smile_talk", MOUTH_LOCK:true, eyes:"sexy"}, 0);
 hong({eyes:"normal", mouth:"normal"}, 0);
 ```
 
-h: Te rog, nu face asta. Please do not do that.
+h: Te rog, nu face asta.
 
 (#act4_something_else)
 
@@ -1258,35 +1258,35 @@ h: Te rog, nu face asta. Please do not do that.
 
 `bb({ eyes:"angry_d" })`
 
-b: Se simte nebunesc să recunosc, dar parcă... o parte din mine *ar vrea* să aibă această boală. This feels sick to admit, but... some part of me *wants* to have this disorder.
+b: Se simte nebunesc să recunosc, dar parcă... o parte din mine *ar vrea* să aibă această tulburare.
 
 `bb({ eyes:"angry" })`
 
-b: Adică, fără ea, n-am fi cumva *plictisitori?* I mean, without it, won't we be *boring?*
+b: Adică, fără ea, n-am fi cumva *plictisitori?*
 
 `bb({ eyes:"sad_r", body:"one_up" })`
 
-b: Fără boală, n-ar deveni arta noastră anostă și insipidă? Without the disorder, won't our art become stale and bland?
+b: Fără boală, n-ar deveni arta noastră anostă și insipidă?
 
 `bb({ eyes:"sad_u", body:"two_up" })`
 
-b: Fără boală, ne-am mai putea apropia de prietenii noștri care au boala? Without the disorder, won't we be unable to connect with our friends who have the disorder?
+b: Fără boală, ne-am mai putea apropia de prietenii noștri care au tulburarea?
 
 `bb({ eyes:"sad", body:"chest" })`
 
-b: Dacă vom fi mulțumiți/fericiți cu viața noastră, nu cumva ne vom opri motivația de a face chestii grozave? If we're ever content with life, won't we stop driving ourselves to do great things?
+b: Dacă vom fi mulțumiți cu viața noastră, nu cumva ne vom opri motivația de a face chestii grozave?
 
 `hong({ MOUTH_LOCK:true })`
 
 h: ...
 
-h: Chiar dacă ne e teamă... „să rămânem fără temeri”... If we even fear... "running out of fears"...
+h: Chiar dacă ne e frică... „să rămânem fără frici”...
 
-h: Nu cred că vom rămâne vreodată fără temeri. I don't think we're gonna run out of fears.
+h: Nu cred că vom rămâne vreodată fără frici.
 
 `bb({ eyes:"smile_u", body:"normal", mouth:"smile" })`
 
-b: A, da! Ce ușurare! Oh, yeah! Whew! What a relief!
+b: Ah, da! Ce ușurare!
 
 (#act4_something_else)
 
@@ -1294,53 +1294,53 @@ b: A, da! Ce ușurare! Oh, yeah! Whew! What a relief!
 
 `bb({ body:"one_up", eyes:"sexy", mouth:"normal" })`
 
-b: „Doctore, sunt anxios că plătesc -sau 300-500 RON-100$/oră doar să te aud spunând *cum te face să te simți?*” "Doc, I'm anxious that I'm paying $100/hr just to hear you ask *how does that make you feel?*"
+b: „Doctore, sunt anxios că plătesc 400 RON/oră doar să te aud întrebându-mă *cum te face să te simți?*”
 
 `bb({ body:"paw", eyes:"closed", mouth:"narrow" })`
 
-b: „Aha. Și asta cum te face să te simți?” "Mm-hmm. And how does that make you feel?"
+b: „Aha. Și asta cum te face să te simți?”
 
 ```
 bb({ body:"normal", eyes:"normal", mouth:"normal" });
 hong({ eyes:"sad" });
 ```
 
-h: Neh, ăsta e un motiv rezonabil de îngrijorare. Nah, that's a totally reasonable worry.
+h: Neh, ăsta e un motiv rezonabil de îngrijorare.
 
 `hong({ eyes:"annoyed", mouth:"sad" });`
 
-h: Și sincer, e nașpa că sistemul de sănătate mentală nu este accesibil pentru mulți oameni. And it genuinely sucks that mental healthcare isn't affordable for lots of folks.
+h: Și sincer, e nașpa că sistemul de sănătate mentală nu este accesibil pentru multă lume.
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Totuși, există niște alternative ieftine sau gratis: Still, there are some cheap or free options:
+h: Totuși, există niște alternative ieftine sau gratis:
 
 `hong({ body:"chin" })`
 
-h: Grupuri de susținere, terapie online, centre de sănătate studențești/non-profit... Support groups, online therapy, student/non-profit health centers...
+h: Grupuri de suport, terapie online, centre de sănătate studențești/non-profit...
 
 `hong({ body:"hands_1" })`
 
-h: Construirea unor obiceiuri precum meditația, dormitul bine, discuții periodice cu prietenii, învățarea unor lucruri noi... Building habits like meditation, sleeping well, chatting regularly with friends, learning new things...
+h: Construirea unor obiceiuri precum meditația, dormitul bine, discuții periodice cu prietenii, învățarea unor lucruri noi...
 
 `hong({ body:"hands_2" })`
 
-h: Mersul la o bibliotecă pentru a împrumuta manuale de psihoterapie bazată pe dovezi... Going to a library to borrow workbooks for evidence-based psychotherapies...
+h: Mersul la o bibliotecă pentru a împrumuta manuale de psihoterapie bazată pe dovezi...
 
 `hong({ body:"one_up" })`
 
-h: Este o listă completă de resurse la sfârșitul acestui joc! There's a full list of resources at the end of this game!
+h: Este o listă completă de resurse la sfârșitul acestui joc!
 
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed", mouth:"narrow" });
 ```
 
-b: Ei bine, *acea* a patra parte n-a durat prea mult. Well *that* fourth wall didn't last long.
+b: Ei bine, *acea* a patra parte n-a durat prea mult.
 
 `hong({ body:"point" });`
 
-h: Câteva lucruri sunt mai importante decât o convenție narativă. Cum ar fi sănătatea mentală. Some things are more important than narrative convention. Such as mental health.
+h: Câteva lucruri sunt mai importante decât o convenție narativă. Cum ar fi sănătatea mentală.
 
 (#act4_something_else)
 
