@@ -1352,48 +1352,48 @@ bb({ eyes:"normal" });
 hong({ eyes:"normal_l", body:"one_up", mouth:"narrow" });
 ```
 
-h: I mean, that's what therapists say right? Accept all your emotions, even the negative ones?
+h: Adică, asta spun toți terapeuții, corect? Să ne acceptăm emoțiile, chiar și pe cele negative?
 
 ```
 bb({ eyes:"annoyed" });
 hong({ eyes:"normal", body:"normal", mouth:"normal" });
 ```
 
-b: Wait.
+b: Stai.
 
-["Accept" as in *give up*?](#act4_bad_accept_give_up)
+[„A accepta”, adică *a renunța*?](#act4_bad_accept_give_up)
 
-["Accept" as in *approve*?](#act4_bad_accept_approve)
+[„A accepta” adică *a fi de acord*?](#act4_bad_accept_approve)
 
-["Accept" as in *take literally*?](#act4_bad_accept_literally)
+[„A accepta” adică *să le luăm în serios*?](#act4_bad_accept_literally)
 
 # act4_bad_accept_give_up
 
 `bb({ eyes:"angry", body:"one_up" });`
 
-b: Do you think Martin Luther King would've said, "Shucks we can't sit in the front of the bus, let's just *accept* it?"
+b: Crezi că Martin Luther King ar fi zis, "Nășpik că nu putem sta în față în autobuz, hai să *acceptăm* asta?"
 
 `bb({ eyes:"angry_r", body:"two_up" });`
 
-b: Why does the Self-Help Industrial Complex think waving the white flag is some *profound wisdom?*
+b: De ce cei de la Complexul Industrial de Dezvoltare Personală cred că fluturarea steagului alb este ceva *înțelepciune profundă?*
 
 `bb({ eyes:"annoyed", body:"normal" });`
 
-h: I think therapists mean "accept" bad things as in: acknowledging they exist and are hard to change,
+h: Cred că terapeuții se referă la „a accepta” lucrurile rele prin a lua la cunoștință că există și că sunt greu de schimbat,
 
-h: But not necessarily giving up a commitment to change.
+h: Dar nu înseamnă neapărat să renunți la angajamentul pentru schimbare.
 
 `bb({ eyes:"suspect" });`
 
-b: Then therapists should say *acknowledge*, not *accept*.
+b: Păi atunci, terapeuții ar trebui să spună *a lua la cunoștință*, nu *a accepta*.
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: Yeah come to think of it, "accept" is kinda confusing.
+h: Da, acum că mă gândesc mai bine, „a accepta” e cam derutant.
 
 `bb({ eyes:"closed", mouth:"narrow" });`
 
-b: Well, I *acknowledge* that.
+b: Păi, *am luat asta la cunoștință*.
 
 (#act4_something_else)
 
@@ -1401,52 +1401,52 @@ b: Well, I *acknowledge* that.
 
 `bb({ eyes:"angry" });`
 
-b: Like it's *good* that we're broken or something? No!
+b: De parcă ar fi *bine* că suntem stricați sau ceva? Nu!
 
 `bb({ eyes:"angry_r", body:"one_up" });`
 
-b: All those dang Hollywood screenwriters who romanticize mental illness are full of crud!
+b: Toți scenariștii ăia blestemați de la Hollywood care glorifică bolile mentale sunt plini de ^rahat^!
 
 `bb({ eyes:"angry", body:"two_up" });`
 
-b: Having a mental disorder *sucks!* It robs people of *lives!* Why should we "accept" that?!
+b: E *nașpa* să ai o tulburare mentală! Jefuiește oamenii de *vieți!* De ce ar trebui să „acceptăm” asta?!
 
 `bb({ body:"normal" });`
 
-h: I think therapists mean "accept" our emotions as in: be patient with them.
+h: Cred că terapeuții se referă la „acceptarea” emoțiilor prin a avea răbdare cu ele.
 
 ```
 hong({ body:"one_up" });
 bb({ eyes:"normal" });
 ```
 
-h: Like how struggling in quicksand makes you sink faster, and the solution is to patiently lie flat,
+h: La fel cum dacă te miști într-un nisip mișcător te face să te îneci mai repede, iar soluția este să fim întinși răbdători pe spate,
 
 `hong({ eyes:"surprise" });`
 
 {{if _.INJURED}}
-h: Fighting against you, my fear, led me to jump off a roof.
+h: Lupta împotriva ta, frica mea, m-a făcut să mă arunc de pe acoperiș.
 {{/if}}
 
 {{if !_.INJURED}}
-h: Fighting against you, my fear, almost led me to jump off a roof.
+h: Lupta împotriva ta, frica mea, aproape că m-a făcut să mă arunc de pe acoperiș.
 {{/if}}
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: Instead, the solution is to do what we're doing now – not to fight, but to patiently be with each other.
+h: În schimb, soluția este să facem ceea ce facem acum: nu să ne certăm, ci să fim răbdători unii cu ceilalți.
 
 `bb({ eyes:"annoyed" });`
 
-b: Then they should say *that* instead of some problematic word like "accept".
+b: Atunci ar trebui să zică *asta* în loc de un cuvânt problematic precum „a accepta”.
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: Yeah come to think of it, "accept" kind of sucks.
+h: Mda, acum că mă gândesc la asta, „a accepta” e cam nașpa.
 
 `bb({ eyes:"closed_annoyed", mouth:"narrow" });`
 
-b: I do not accept "accept".
+b: Nu accept „acceptarea”.
 
 (#act4_something_else)
 
@@ -1454,30 +1454,30 @@ b: I do not accept "accept".
 
 `bb({ eyes:"sad", body:"one_up" });`
 
-b: But we already *know* you shouldn't take me literally!
+b: Dar deja *știi* că nu ar trebui să mă iei în serios!
 
 `bb({ eyes:"sad_u", body:"two_up" });`
 
-b: The whole *problem* is that I want to help you, but I suck at using words to do so!
+b: *Problema* este că aș vrea să te ajut, dar sunt nașpa la folosirea cuvintelor cu scopul ăsta!
 
 `bb({ eyes:"sad", body:"normal" });`
 
-h: I think therapists mean "accept" your emotions as in: "don't fight or ignore them."
+h: Cred că terapeuții se referă la „acceptare” prin „a nu te împotrivi sau a nu le ignora”.
 
 `hong({ eyes:"surprise", body:"one_up" });`
 
-h: To listen to you, work *with* you, but not take what you say as 100% literal truth.
+h: Să te asculte, să lucreze *cu* tine, dar să nu ia ceea ce spui ca fiind 100% adevărul absolut.
 
 ```
 hong({ eyes:"normal", body:"normal" });
 bb({ eyes:"annoyed", mouth:"normal" });`
 ```
 
-b: Then therapists should say *that* instead of some vague confusing word like "accept".
+b: Atunci terapeuții ar trebui să spună *asta* în loc să folosească cuvinte vagi și derutante precum „a accepta”.
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: I guess they suck at using words, too.
+h: Presupun că și ei sunt nașpa la folosirea cuvintelor.
 
 (#act4_something_else)
 
