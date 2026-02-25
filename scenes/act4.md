@@ -1492,11 +1492,11 @@ hong({ body:"normal", mouth:"normal", eyes:"normal" });
 ```
 
 {{if _.a4_fears_discussed==1}}
-h: Anyway, anything else you wanna chat about?
+h: Mă rog, altceva despre care ai vrea să discutăm?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-h: So, anything else on your heavy heart?
+h: Așadar, mai ai ceva pe sufletul tău mare?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
@@ -1504,24 +1504,24 @@ h: So, anything else on your heavy heart?
 {{/if}}
 
 {{if _.a4_talked_about_harm!=true}}
-[I'm scared we'll be harmed.](#act4_harm)
+[Mi-e teamă să fim răniți.](#act4_harm)
 {{/if}}
 
 {{if _.a4_talked_about_alone!=true}}
-[I'm scared we'll be alone.](#act4_alone)
+[Mi-e teamă să rămânem singuri.](#act4_alone)
 {{/if}}
 
 {{if _.a4_talked_about_bad!=true}}
-[I'm scared we're bad people.](#act4_bad)
+[Mi-e teamă de a fi niște oameni răi.](#act4_bad)
 {{/if}}
 
-[Nah, I'm good for now.](#act4c_prelude)
+[Neh, e ok momentan.](#act4c_prelude)
 
 # act4_something_else_2
 
 h: OK, cred că am vorbit despre toate temerile noastre acum.
 
-b: Da, aici sunt doar trei frici/temeri.
+b: Da, aici sunt doar trei temeri.
 
 h: Dap, fix trei.
 
