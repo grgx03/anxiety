@@ -1109,7 +1109,7 @@ h: *„Nimic interesant!”*
 
 `bb({ eyes:"suspect_r" })`
 
-b: Poate barmanul doar vrea să facă o amărâtă de cafea, nu să fie un *experiment* care să vadă că suntem nașpa pe partea de abilități sociale.
+b: Poate barmanul doar vrea să facă o amărâtă de cafea, nu să fie un cobai pe care să ne testăm abilitățile de comunicare.
 
 `bb({ eyes:"annoyed" })`
 
@@ -1591,25 +1591,25 @@ music('campus', {volume:0.5, fade:1});
 
 `publish("act4", ["alshire", 0]);`
 
-a: A-a-Aș putea/A-a-ar fi în regulă să stau cu tine la prânz? W-wo-would you mind if I sat with you for lunch?
+a: A-a-ar fi în regulă să stau cu tine la prânz?
 
 `publish("act4", ["alshire", 1]);`
 
 {{if _.TOP_FEAR=="harm"}}
-s: *This* is your crush? Why are they sitting alone like a psycho serial killer?
+s: *Asta* e persoana pe care o placi? De ce stă singur ca un criminal în serie psihopat?
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: Să o întrebi pe persoana pe care o placi dacă putem sta cu ea? Știi cât de *disperați* părem? Asking your crush if you can sit with them? Do you know how *needy* we sound?!
+s: Să o întrebi pe persoana pe care o placi dacă putem sta cu ea? Știi cât de *disperați* părem?!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: *This* is your crush? We interrupted their peace and quiet! We're such a burden!
+s: *Asta* e persoana pe care o placi? I-am întrerupt liniștea și pacea! Suntem o așa povară!
 {{/if}}
 
 `publish("act4", ["alshire", 2]);`
 
-a: A-adică e, e în regulă dacă nu, doar...I- I mean- it's, it's okay if not, I just...
+a: A-adică e, e în regulă dacă nu, doar...
 
 `publish("act4", ["alshire", 3]);`
 
@@ -1617,9 +1617,9 @@ a: A-adică e, e în regulă dacă nu, doar...I- I mean- it's, it's okay if not,
 
 [Stai, nu cumva te-am văzut la petrecere?](#act4d_recognition) `publish("act4", ["hong_to_alshire",1])`
 
-[Yeah, of course! Come here.](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
+[Da, desgigur! Vino aici.](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
 
-[Sorry, I need alone time right now.](#act4d_no) `publish("act4", ["hong_to_alshire",8])`
+[Scuze, am nevoie să fiu singur acum.](#act4d_no) `publish("act4", ["hong_to_alshire",8])`
 
 # act4d_recognition
 
@@ -1634,7 +1634,7 @@ h2: Unde am avut atacul ăla de panică și i-am dat un pumn gazdei.
 {{/if}}
 
 {{if _.a2_ending=="flight"}}
-h2: Where I had that panic attack and ran out crying.
+h2: Unde am avut atacul ăla de panică și am fugit plângând.
 {{/if}}
 
 ```
@@ -1642,18 +1642,18 @@ publish("act4", ["hong_to_alshire", 0]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Stai puțin, omule, poate o facem să se simtă inconfortabilă. Hang on human, we may be making them uncomfortable.
+b: Stai puțin, omule, poate o facem să se simtă inconfortabilă.
 
 ```
 publish("act4", ["hong_to_alshire", 3]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 2 : 0]);
 ```
 
-h2: Aaa, nu vreau să te pun într-o situație jenantă! Ah, I don't mean to put you on the spot!
+h2: Aaa, nu vreau să te pun într-o situație jenantă!
 
 `publish("act4", ["hong_to_alshire",4]);`
 
-h2: Doar mi-am amintit de cineva cunoscut, atât.  Just remembering a friendly face, is all.
+h2: Doar mi-am amintit de cineva cunoscut, atât.
 
 ```
 publish("act4", ["hong_to_alshire",5]);
@@ -1661,7 +1661,7 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: AHHHHH I KNEW IT! THEY'RE A DANGEROUS PANIC-DRIVEN PSYCHO!
+s: AAAAA, ȘTIAM EU! ESTE UN NEBUN PERICULOS CARE SE LASĂ CONDUS DE PANICĂ!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
@@ -1669,7 +1669,7 @@ s: AAAAA PRIMA IMPRESIE PE CARE AM FĂCUT-O A FOST „MARTORII TRAUMEI MELE”! 
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: AAAHHH WE MADE SOMEONE REMEMBER A TRAUMATIC EVENT. OUR MERE PRESENCE HURTS OTHERS.
+s: AAAAAA AM FĂCUT PE CINEVA SĂ-ȘI AMINTEASCĂ DE UN EVENIMENT TRAUMATIZANT. SIMPLA PREZENȚĂ A NOASTRĂ ÎI RĂNEȘTE PE CEILALȚI.
 {{/if}}
 
 (#act4e)
@@ -1681,18 +1681,18 @@ publish("act4", ["hong_to_alshire", 5]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Hang on human, they seem uncomfortable.
+b: Stai puțin, omule, poate o facem să se simtă inconfortabilă.
 
 ```
 publish("act4", ["hong_to_alshire", 6]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 2 : 0]);
 ```
 
-h2: Ah, no pressure of course!
+h2: A, fără presiune desigur!
 
 `publish("act4", ["hong_to_alshire", 4]);`
 
-h2: Just saying, you can sit here if you want to.
+h2: Zic doar că poți sta aici dacă vrei.
 
 ```
 publish("act4", ["hong_to_alshire", 5]);
@@ -1700,15 +1700,15 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: THEY'RE BEING *TOO* FRIENDLY! LIKE TED BUNDY, THE SERIAL KILLER!
+s: ESTE *PREA* PRIETENOASĂ! PRECUM TED BUNDY, CRIMINALUL ÎN SERIE!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: THEY'RE JUST ACTING NICE! NO ONE *REALLY* WANTS TO BE CLOSE TO US!
+s: DOAR SE COMPORTĂ DRĂGUȚ CU NOI! NIMENI NU *PREA* VREA SĂ SE APROPIE DE NOI!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: AHHH WE ALWAYS MAKE OTHERS FEEL AWKWARD! WE'RE A STAIN UPON THE EARTH!
+s: AAAA ÎI FACEM PE ALȚII SĂ SE SIMTĂ STÂNJENIȚI! SUNTEM O PATĂ PE PĂMÂNT!
 {{/if}}
 
 (#act4e)
@@ -1720,18 +1720,18 @@ publish("act4", ["hong_to_alshire", 9]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Hang on human, we may be making them uncomfortable.
+b: Stai puțin, omule, poate o facem să se simtă inconfortabilă.
 
 ```
 publish("act4", ["hong_to_alshire", 3]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 2 : 0]);
 ```
 
-h2: Ah, I don't mean to be rude!
+h2: A, nu am vrut să fiu nașpa!
 
 `publish("act4", ["hong_to_alshire", 6]);`
 
-h2: I just need some time to process my emotions. Please don't take it as a personal rejection.
+h2: Doar am nevoie să-mi procesez emoțiile. Te rog să nu o iei ca pe o respingere.
 
 ```
 publish("act4", ["hong_to_alshire", 7]);
@@ -1739,15 +1739,15 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: WHAT SICK, TWISTED THOUGHTS ARE THEY PROCESSING?! WHAT DARK DESIRES FILL THIS PSYCHO'S HEART?!
+s: CE GÂNDURI BOLNAVE ȘI SUCITE PROCESEAZĂ?! CE DORINȚE ÎNTUNECATE ÎI UMPLE INIMA ACESTUI PSIHOPAT?!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: WE'VE BEEN PERSONALLY REJECTED! WE'LL NEVER BE LOVED!
+s: AM FOST RESPINȘI! NU VOM FI NICIODATĂ IUBIȚI!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: WE INTERRUPTED THEIR EMOTIONAL PROCESSING! NOW THEY'LL BE TRAUMATIZED FOREVER AND IT'S ALL OUR FAULT!
+s: LE-AM ÎNTRERUPT PROCESUL EMOȚIONAL! ACUM VA FI TRAUMATIZAT PENTRU TOTDEAUNA ȘI E DOAR VINA NOASTRĂ!
 {{/if}}
 
 (#act4e)
