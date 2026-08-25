@@ -1815,15 +1815,15 @@ b: Se spune că trebuie „să faci pace” cu emoțiile tale, de parcă emoții
 
 `publish("act4", ["bb_closer", 7]);`
 
-b: Dar vreau să fie între noi *mai mult* decât pace! Aș vrea să fim *aliați!* But I want us to make *more* than mere peace! I want us to be *allies!*
+b: Dar vreau să fie între noi *mai mult* decât pace! Aș vrea să fim *aliați!*
 
 `publish("act4", ["bb_closer", 3]);`
 
-b: Aș vrea să fiu un câine de pază bun. Precum foamea și setea sunt alarme pentru neoile tale fizice... I want to be a good guard-dog. Just like how hunger & thirst are alarms for your physical needs,
+b: Aș vrea să fiu un câine de pază bun. Precum foamea și setea sunt alarme pentru nevoile tale fizice,
 
 `publish("act4", ["bb_closer", 8]);`
 
-b: Vreau să fiu alarma pentru nevoile tale *psihologice* - nevoile tale de siguranță, apartenență, bunătate.
+b: vreau să fiu alarma pentru nevoile tale *psihologice* - nevoile tale de siguranță, apartenență, bunătate.
 
 `publish("act4", ["bb_closer", 1]);`
 
@@ -1855,7 +1855,7 @@ b: Îmi pare rău! Sunt un câine de adăpost schingiuit! Câinii schingiuiți m
 
 `publish("act4", ["bb_closer", 4]);`
 
-b: Dar dacă ai răbdare cu mine... și vei sta cu mine... But if you're patient with me... and just stay and sit with me...
+b: Dar dacă ai răbdare cu mine... și vei sta cu mine...
 
 `publish("act4", ["bb_closer", 8]);`
 
