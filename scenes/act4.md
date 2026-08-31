@@ -215,23 +215,23 @@ hong({body:"hold", eyes:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: Așadar, care ^naiba^ a fost morala poveștii?
+h: Deci, care ^naiba^ a fost morala poveștii?
 
 `hong({body:"one_up", eyes:"annoyed"})`
 
-h: Ce am *învățat* măcar? Mă *comportam* într-un mod prostesc, "prietenii" mei mă *foloseau*, și eram aproape de a *muri*.
+h: Ce am *învățat* măcar? Mă *comportam* prostesc, "prietenii" mei mă *foloseau*, și eram aproape de a *muri*.
 
 `hong({body:"normal", eyes:"normal"})`
 
 {{if _.INJURED}}
-[Mda, ca să nu mai vorbim de bonul de la spital.](#act4a_bill)
+[Mda, ca să nu mai vorbim despre factura de la spital.](#act4a_bill)
 {{/if}}
 
 {{if !_.INJURED}}
-[Mda, ca să nu mai vorbim de deteriorarea ficatului.](#act4a_liver)
+[Mda, ca să nu mai vorbim despre deteriorarea ficatului.](#act4a_liver)
 {{/if}}
 
-[Mda, ăla *era* scenariul cel mai prost.](#act4a_worst)
+[Mda, ăla *era* cel mai prost scenariu.](#act4a_worst)
 
 [Mda, am avut dreptate.](#act4a_right)
 
@@ -243,7 +243,7 @@ h: Corect. Nu cred ca asigurarea medicală îmi acoperă "imbecilitatea".
 
 `hong({eyes:"annoyed", mouth:"normal"});`
 
-b: Și totuși... am supraviețuit!
+b: Și totuși... Am supraviețuit!
 
 `hong({eyes:"normal"});`
 
@@ -334,7 +334,7 @@ b: Ei bine, asta face orice altceva mai puțin înfricoșător în comparație. 
 
 b: Dacă să mă cert cu tine este nașpa, pentru că nu te protejează...
 
-h: Dar să mă cert *eu* cu tine este nașpa, pentru că te face să strigi mai tare...
+h: Dar *și* să mă cert *eu* cu tine este nașpa, pentru că te face să strigi mai tare...
 
 `bb({eyes:"normal_r"})`
 
@@ -422,7 +422,7 @@ h: Voi... Voi încerca.
 
 `hong({eyes:"normal_l", body:"chin", mouth:"narrow"})`
 
-h: OK. O relație sănătoasă cu emoții. Relațiile au nevoie de comunicare. Deci, să comunicăm. 
+h: OK. O relație sănătoasă cu emoțiile. Relațiile au nevoie de comunicare. Deci, să comunicăm. 
 
 `hong({eyes:"normal", body:"hands_1", mouth:"normal"})`
 
@@ -432,7 +432,7 @@ h: Următoarele cinci minute vor suna foarte siropoase, dar hai să ne prefacem 
 hong({body:"hands_2", mouth:"normal"});
 ```
 
-h: Dragă lup interior... cum *te* simți? 
+h: Dragă lup interior... cum te simți *tu*? 
 
 n2: FRICI FOLOSITE ÎN TOTAL:
 
@@ -466,7 +466,7 @@ b: Vreau să îți protejez nevoia de siguranță fizică,
 
 `bb({eyes:"sad_d"})`
 
-b: dar *toată lumea* pare atât de periculoasă. Atât de plină de tragedii și răutăți. 
+b: Dar *toată lumea* pare atât de periculoasă. Atât de plină de tragedii și răutăți. 
 
 `bb({eyes:"sad"})`
 
@@ -484,7 +484,7 @@ b: Alte păreri, omule?
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[Ai dreptate. Deci hai să fim mai protectivi cu noi înșine.](#act4_harm_skills)
+[Ai dreptate. Deci, hai să fim mai protectivi cu noi înșine.](#act4_harm_skills)
 
 [Hai să ne expunem la *mai multe* pericole.](#act4_harm_exposure)
 
@@ -586,7 +586,7 @@ h: Care tot contează dacă ești blocat într-un deșert.
 
 `bb({ eyes:"closed" });`
 
-b: Ei bine. Până la fund, atunci. Well.
+b: Ei bine. Până la fund, atunci.
 
 (#act4_something_else)
 
@@ -767,7 +767,7 @@ b: Stai așa, nimic de spus legat sau împotriva a ceea se simt? Doar un... „m
 
 `hong({ eyes:"surprise", body:"shrug" })`
 
-h: Da! Îți mulțumesc de grija pentru {{_.thanks_for}}.
+h: Da! Îți mulțumesc de grija ta pentru {{_.thanks_for}}.
 
 ```
 bb({ eyes:"closed_annoyed", MOUTH_LOCK:true });
@@ -789,8 +789,8 @@ h: Aww, lup pufos și speriat care ești.
 (#act4_something_else)
 
 # act4_thanks_2
-
-h: Chiar dacă exagerezi, apreciez că ai grijă pentru {{_.thanks_for}}.
+Dacă zâmbim superficial
+h: Chiar dacă exagerezi, apreciez că îți faci griji pentru {{_.thanks_for}}.
 
 `bb({ eyes:"annoyed" })`
 
@@ -1033,7 +1033,7 @@ b: Dacă zâmbim superficial, nu vom avea niciodată legături sincere cu cineva
 
 `bb({ eyes:"super_sad" });`
 
-b: *dar* dacă ne deschidem, alții vor vedea mizeria dinăuntrul nostru!
+b: *Dar* dacă ne deschidem, alții vor ne vedea mizeria din interior!
 
 `hong({body:"chin", mouth:"narrow", MOUTH_LOCK:true})`
 
@@ -1058,7 +1058,7 @@ h: Poate că nu ne simțim *încă* suficient de siguri să fim vulnerabili, dar
 
 `hong({body:"normal", eyes:"surprise"})`
 
-h: într-o zi le putem arăta oamenilor cine suntem cu adevărat: o dezordine, dar umană.
+h: Într-o zi le putem arăta oamenilor cine suntem cu adevărat: o dezordine, dar umană.
 
 ```
 hong({eyes:"normal"});
@@ -1131,7 +1131,7 @@ hong({ eyes:"annoyed_l", mouth:"narrow" });
 bb({ eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Știi, tot ^rahatul^ ăsta cu „abilitățile inter-personale” pe care le vedem în broșurile consilierilor.
+h: Știi, tot ^rahatul^ ăsta cu „abilitățile interpersonale” pe care le vedem în broșurile consilierilor.
 
 (#act4_something_else)
 
@@ -1150,7 +1150,7 @@ b: Vreau să-ți apăr nevoile morale, acel impuls de a deveni o persoană mai b
 
 `bb({ eyes:"sad_d" })`
 
-b: dar se simte de parcă, în adâncul nostru, suntem atât de... stricați.
+b: Dar se simte de parcă, în adâncul nostru, suntem atât de... stricați.
 
 `bb({ body:"two_up", eyes:"angry" })`
 
@@ -1195,7 +1195,7 @@ h: Am putea construi încet-încet niște obiceiuri mai bune, să ne aliniem via
 
 `hong({body:"one_up"});`
 
-h: iar dacă va fi nevoie, putem primi ajutor de la profesioniști: un terapeut sau un consilier.
+h: Iar dacă va fi nevoie, putem primi ajutor de la profesioniști: un terapeut sau un consilier.
 
 `hong({body:"normal"});`
 
@@ -1270,7 +1270,7 @@ b: Fără boală, n-ar deveni arta noastră anostă și insipidă?
 
 `bb({ eyes:"sad_u", body:"two_up" })`
 
-b: Fără boală, ne-am mai putea apropia de prietenii noștri care au tulburarea?
+b: Fără boală, ne-am mai putea apropia de prietenii noștri care au acea tulburare?
 
 `bb({ eyes:"sad", body:"chest" })`
 
@@ -1617,7 +1617,7 @@ a: A-adică e, e în regulă dacă nu, doar...
 
 [Stai, nu cumva te-am văzut la petrecere?](#act4d_recognition) `publish("act4", ["hong_to_alshire",1])`
 
-[Da, desgigur! Vino aici.](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
+[Da, desigur! Vino aici.](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
 
 [Scuze, am nevoie să fiu singur acum.](#act4d_no) `publish("act4", ["hong_to_alshire",8])`
 
@@ -1823,7 +1823,7 @@ b: Aș vrea să fiu un câine de pază bun. Precum foamea și setea sunt alarme 
 
 `publish("act4", ["bb_closer", 8]);`
 
-b: vreau să fiu alarma pentru nevoile tale *psihologice* - nevoile tale de siguranță, apartenență, bunătate.
+b: Vreau să fiu alarma pentru nevoile tale *psihologice* - nevoile tale de siguranță, apartenență, bunătate.
 
 `publish("act4", ["bb_closer", 1]);`
 
@@ -1831,7 +1831,7 @@ b: Dar... sunt nașpa la asta, deci am nevoie de tine pentru a mă dresa.
 
 `publish("act4", ["bb_closer", 4]);`
 
-b: Nu „am mereu dreptate”, nici nu stunt „irațional” mereu. Încerc doar... să dau tot ce-i mai bun din mine. Deci, te rog...
+b: Nu „am mereu dreptate”, nici nu sunt „irațional” mereu. Încerc doar... să dau tot ce-i mai bun din mine. Deci, te rog...
 
 `publish("act4", ["bb_closer", 30]);`
 
